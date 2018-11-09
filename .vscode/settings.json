@@ -1,0 +1,8 @@
+{
+    "git.allowForcePush": true,
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "git.enableSmartCommit": true,
+    "git.promptToSaveFilesBeforeCommit": true,
+    "git.alwaysSignOff": true,
+    "git.showPushSuccessNotification": true
+}
