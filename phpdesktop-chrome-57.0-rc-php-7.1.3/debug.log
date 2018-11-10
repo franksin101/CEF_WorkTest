@@ -572,3 +572,221 @@
 - 12:01:52.171 DEBUG: OnBrowserDestroyed()
 - 12:01:53.375 INFO: Ended application
 - 12:01:53.375 INFO: --------------------------------------------------------
+- 02:07:25.187 INFO: --------------------------------------------------------
+- 02:07:25.187 INFO: Started application
+- 02:07:25.187 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 02:07:25.187 INFO: Log level = DEBUG4
+- 02:07:25.187 INFO: Starting Mongoose 3.9c web server
+- 02:07:25.187 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 02:07:25.187 INFO: Index files: index.html,index.php
+- 02:07:25.187 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 02:07:25.187 INFO: CGI pattern: **.php$
+- 02:07:25.187 INFO: Hide files patterns: 
+- 02:07:25.187 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 02:07:25.187 INFO: Web server url: http://127.0.0.1:55667/
+- 02:07:25.187 INFO: remote_debugging_port = 58919
+- 02:07:26.484 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=58919
+- 02:07:30.016 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=0EB7AEE271FF1972990AF73D81A762AC --mojo-platform-channel-handle=1848 /prefetch:2
+[1110/020731.427:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 02:07:31.219 DEBUG: App::OnContextInitialized()
+- 02:07:31.219 DEBUG: Window max width/height = 1840/992
+- 02:07:31.219 DEBUG: GetBrowserWindow(): not found, hwnd = 3342820
+- 02:07:31.219 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 02:07:31.219 DEBUG: BrowserWindow::CreateBrowserControl()
+- 02:07:31.219 DEBUG: StoreBrowserWindow(): hwnd = 3342820
+- 02:07:32.281 DEBUG: ClientHandler::OnAfterCreated()
+- 02:07:32.281 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 02:07:33.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=B8EE1446ACCC6853A893CD02851307FC --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=B8EE1446ACCC6853A893CD02851307FC --renderer-client-id=3 --mojo-platform-channel-handle=2296 /prefetch:1
+- 02:07:33.656 DEBUG: OnLoadingStateChange: loading=1, url=
+- 02:07:36.594 DEBUG: OnBrowserCreated()
+- 02:07:41.781 INFO: GET 200 /
+- 02:07:42.469 INFO: GET 200 /style.css
+- 02:07:43.125 DEBUG: OnContextCreated()
+- 02:07:44.656 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55667/
+- 02:07:51.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55667/
+- 02:07:51.125 INFO: GET -1 /Worksheet
+- 02:07:51.172 INFO: GET 200 /Worksheet/
+- 02:07:51.797 DEBUG: OnContextCreated()
+- 02:07:52.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55667/Worksheet/
+- 02:07:55.109 INFO: GET 200 /Worksheet/gethint.php?q=0
+- 02:07:57.031 INFO: GET 200 /Worksheet/gethint.php?q=%E3%84%87
+- 02:07:58.703 INFO: GET 200 /Worksheet/gethint.php?q=%E3%84%87
+- 02:07:59.359 INFO: GET 200 /Worksheet/gethint.php?q=%E3%84%87
+- 02:07:59.953 INFO: GET 200 /Worksheet/gethint.php?q=%E3%84%87
+- 02:07:59.265 INFO: GET 200 /Worksheet/gethint.php?q=a
+- 02:08:00.078 INFO: GET 200 /Worksheet/gethint.php?q=aa
+- 02:08:01.437 INFO: GET 200 /Worksheet/gethint.php?q=aas
+- 02:08:02.484 INFO: GET 200 /Worksheet/gethint.php?q=aasc
+- 02:08:02.187 INFO: GET 200 /Worksheet/gethint.php?q=aascv
+- 02:08:04.469 INFO: GET 200 /Worksheet/gethint.php?q=a
+- 02:08:05.109 INFO: GET 200 /Worksheet/gethint.php?q=b
+- 02:08:07.703 INFO: GET 200 /Worksheet/gethint.php?q=c
+- 02:08:08.250 INFO: GET 200 /Worksheet/gethint.php?q=d
+- 02:08:10.844 INFO: GET 200 /Worksheet/gethint.php?q=e
+- 02:08:13.500 DEBUG: WM_DESTROY
+- 02:08:13.500 DEBUG: RemoveBrowserWindow(): hwnd = 3342820
+- 02:08:13.500 INFO: Stopping Mongoose web server
+- 02:08:13.500 DEBUG: Mongoose webserver stopped immediately
+- 02:08:13.500 DEBUG: OnBeforeClose() hwnd=2164508
+- 02:08:13.500 DEBUG: RemoveBrowserWindow(): hwnd = 2164508
+- 02:08:13.500 DEBUG: GetBrowserWindow(): not found, hwnd = 2164508
+- 02:08:13.500 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 02:08:13.500 DEBUG: Calling CefQuitMessageLoop()
+- 02:08:13.359 DEBUG: OnBrowserDestroyed()
+- 02:08:14.594 INFO: Ended application
+- 02:08:14.594 INFO: --------------------------------------------------------
+- 02:13:34.047 INFO: --------------------------------------------------------
+- 02:13:34.047 INFO: Started application
+- 02:13:34.047 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 02:13:34.047 INFO: Log level = DEBUG4
+- 02:13:34.047 INFO: Starting Mongoose 3.9c web server
+- 02:13:34.047 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 02:13:34.047 INFO: Index files: index.html,index.php
+- 02:13:34.047 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 02:13:34.047 INFO: CGI pattern: **.php$
+- 02:13:34.047 INFO: Hide files patterns: 
+- 02:13:34.047 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 02:13:34.063 INFO: Web server url: http://127.0.0.1:55790/
+- 02:13:34.063 INFO: remote_debugging_port = 58275
+- 02:13:34.063 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=58275
+- 02:13:34.110 DEBUG: App::OnContextInitialized()
+- 02:13:34.110 DEBUG: Window max width/height = 1840/992
+- 02:13:34.110 DEBUG: GetBrowserWindow(): not found, hwnd = 788386
+- 02:13:34.110 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 02:13:34.110 DEBUG: BrowserWindow::CreateBrowserControl()
+- 02:13:34.110 DEBUG: StoreBrowserWindow(): hwnd = 788386
+- 02:13:34.141 DEBUG: ClientHandler::OnAfterCreated()
+- 02:13:34.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 02:13:34.000 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=3C90480BC4AE1263715A7005D4737832 --mojo-platform-channel-handle=1696 /prefetch:2
+- 02:13:34.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 02:13:34.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=101352F779CC99EC2CCF77DCD5AA13D3 --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=101352F779CC99EC2CCF77DCD5AA13D3 --renderer-client-id=3 --mojo-platform-channel-handle=2248 /prefetch:1
+- 02:13:34.031 DEBUG: OnBrowserCreated()
+[1110/021335.022:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 02:13:36.282 INFO: GET 200 /style.css
+- 02:13:36.282 INFO: GET 200 /
+- 02:13:36.094 DEBUG: OnContextCreated()
+- 02:13:36.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55790/
+- 02:13:38.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55790/
+- 02:13:38.141 INFO: GET -1 /Worksheet
+- 02:13:38.000 DEBUG: OnContextCreated()
+- 02:13:38.188 INFO: GET 200 /Worksheet/
+- 02:13:38.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55790/Worksheet/
+- 02:13:40.922 INFO: GET 200 /Worksheet/gethint.php?q=%E3%84%8E
+- 02:13:41.782 INFO: GET 200 /Worksheet/gethint.php?q=%E3%84%8E
+- 02:13:41.125 INFO: GET 200 /Worksheet/gethint.php?q=d
+- 02:13:44.891 INFO: GET 200 /Worksheet/gethint.php?q=dd
+- 02:13:50.453 INFO: GET 200 /Worksheet/gethint.php?q=d
+- 02:13:51.344 INFO: GET 200 /Worksheet/gethint.php?q=dd
+- 02:13:51.907 INFO: GET 200 /Worksheet/gethint.php?q=ddd
+- 02:13:52.672 INFO: GET 200 /Worksheet/gethint.php?q=dddd
+- 02:15:18.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55790/Worksheet/
+- 02:15:18.125 INFO: GET 200 /Worksheet/
+- 02:15:18.969 DEBUG: OnContextCreated()
+- 02:15:18.157 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55790/Worksheet/
+- 02:15:20.766 INFO: GET 200 /Worksheet/gethint.php?q=s
+- 02:15:21.078 INFO: GET 200 /Worksheet/gethint.php?q=sd
+- 02:15:22.719 INFO: GET 200 /Worksheet/gethint.php?q=sdf
+[1110/021524.103:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'length' of undefined", source: http://127.0.0.1:55790/Worksheet/ (6)
+- 02:15:24.860 INFO: GET 200 /Worksheet/gethint.php?q=sdfd
+- 02:15:26.625 INFO: GET 200 /Worksheet/gethint.php?q=sdfdd
+[1110/021530.775:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'length' of undefined", source: http://127.0.0.1:55790/Worksheet/ (6)
+- 02:16:13.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55790/Worksheet/
+- 02:16:13.625 INFO: GET 200 /Worksheet/
+- 02:16:13.453 DEBUG: OnContextCreated()
+- 02:16:13.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55790/Worksheet/
+- 02:16:14.985 INFO: GET 200 /Worksheet/gethint.php?q=d
+- 02:16:16.391 INFO: GET 200 /Worksheet/gethint.php?q=df
+- 02:16:17.235 INFO: GET 200 /Worksheet/gethint.php?q=dfg
+- 02:16:17.828 INFO: GET 200 /Worksheet/gethint.php?q=dfgh
+- 02:16:41.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55790/Worksheet/
+- 02:16:42.062 DEBUG: OnContextCreated()
+- 02:16:42.250 INFO: GET 200 /Worksheet/
+- 02:16:42.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55790/Worksheet/
+- 02:16:47.547 DEBUG: ClientHandler::OnAfterCreated()
+- 02:16:47.547 DEBUG: GetBrowserWindow(): not found, hwnd = 1902636
+- 02:16:47.547 DEBUG: BrowserWindow::BrowserWindow() created for Popup
+- 02:16:47.547 DEBUG: StoreBrowserWindow(): hwnd = 1902636
+- 02:16:47.547 DEBUG: Centering popup window relative to its parent
+- 02:16:47.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=82920C9E2571B86616C18564280A2324 --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=82920C9E2571B86616C18564280A2324 --renderer-client-id=4 --mojo-platform-channel-handle=3300 /prefetch:1
+- 02:16:47.672 DEBUG: OnLoadingStateChange: loading=1, url=
+- 02:16:47.078 DEBUG: OnBrowserCreated()
+- 02:16:47.125 DEBUG: OnContextCreated()
+- 02:16:48.219 DEBUG: OnLoadingStateChange: loading=0, url=chrome-devtools://devtools/inspector.html
+[1110/021710.028:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'Value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:10.297 INFO: GET 200 /Worksheet/gethint.php?q=d
+[1110/021711.751:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'Value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:11.016 INFO: GET 200 /Worksheet/gethint.php?q=df
+[1110/021712.320:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'Value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:12.610 INFO: GET 200 /Worksheet/gethint.php?q=dfv
+[1110/021713.332:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'Value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:13.594 INFO: GET 200 /Worksheet/gethint.php?q=dfvf
+[1110/021713.720:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'Value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:13.985 INFO: GET 200 /Worksheet/gethint.php?q=dfvfg
+[1110/021714.229:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'Value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:14.500 INFO: GET 200 /Worksheet/gethint.php?q=dfvfgh
+[1110/021715.058:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'Value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:15.328 INFO: GET 200 /Worksheet/gethint.php?q=dfvfghj
+[1110/021715.940:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'Value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:15.219 INFO: GET 200 /Worksheet/gethint.php?q=dfvfghjj
+[1110/021716.209:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'Value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:16.485 INFO: GET 200 /Worksheet/gethint.php?q=dfvfghjjj
+- 02:17:46.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55790/Worksheet/
+- 02:17:46.437 DEBUG: OnContextCreated()
+- 02:17:46.641 INFO: GET 200 /Worksheet/
+- 02:17:46.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55790/Worksheet/
+[1110/021747.445:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:47.719 INFO: GET 200 /Worksheet/gethint.php?q=d
+[1110/021748.559:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:48.828 INFO: GET 200 /Worksheet/gethint.php?q=df
+[1110/021749.161:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:49.422 INFO: GET 200 /Worksheet/gethint.php?q=dfg
+[1110/021749.550:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+- 02:17:49.813 INFO: GET 200 /Worksheet/gethint.php?q=dfgh
+[1110/021751.469:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'length' of undefined", source: http://127.0.0.1:55790/Worksheet/ (6)
+[1110/021753.619:INFO:CONSOLE(26)] "Uncaught TypeError: Cannot set property 'value' of null", source: http://127.0.0.1:55790/Worksheet/ (26)
+[1110/021756.436:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'length' of undefined", source: http://127.0.0.1:55790/Worksheet/ (6)
+[1110/021801.288:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'length' of undefined", source: http://127.0.0.1:55790/Worksheet/ (6)
+- 02:20:03.844 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55790/Worksheet/
+- 02:20:03.719 DEBUG: OnContextCreated()
+- 02:20:03.907 INFO: GET 200 /Worksheet/
+- 02:20:03.907 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55790/Worksheet/
+- 02:20:05.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55790/Worksheet/
+- 02:20:05.656 DEBUG: OnContextCreated()
+- 02:20:05.860 INFO: GET 200 /Worksheet/
+- 02:20:05.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55790/Worksheet/
+[1110/022046.784:INFO:CONSOLE(6)] "Uncaught TypeError: Cannot read property 'length' of undefined", source: http://127.0.0.1:55790/Worksheet/ (6)
+- 02:21:34.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:55790/Worksheet/
+- 02:21:34.812 DEBUG: OnContextCreated()
+- 02:21:34.016 INFO: GET 200 /Worksheet/
+- 02:21:34.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:55790/Worksheet/
+- 02:21:43.344 INFO: GET 200 /Worksheet/gethint.php?q=c
+- 02:21:45.047 INFO: GET 200 /Worksheet/gethint.php?q=cc
+- 02:21:46.922 INFO: GET 200 /Worksheet/gethint.php?q=ccd
+- 02:21:47.594 INFO: GET 200 /Worksheet/gethint.php?q=ccdf
+- 02:21:48.266 INFO: GET 200 /Worksheet/gethint.php?q=ccdfg
+- 02:21:53.547 INFO: GET 200 /Worksheet/gethint.php?q=44
+- 02:21:57.688 INFO: GET 200 /Worksheet/gethint.php?q=25
+- 02:21:59.688 INFO: GET 200 /Worksheet/gethint.php?q=j
+- 02:22:00.453 INFO: GET 200 /Worksheet/gethint.php?q=jj
+- 02:22:00.063 INFO: GET 200 /Worksheet/gethint.php?q=jjk
+- 02:22:01.438 INFO: GET 200 /Worksheet/gethint.php?q=jjkl
+- 02:22:02.594 INFO: GET 200 /Worksheet/gethint.php?q=jjklo
+- 02:22:02.016 INFO: GET 200 /Worksheet/gethint.php?q=jjklou
+- 02:22:03.953 INFO: GET 200 /Worksheet/gethint.php?q=jjkloum
+- 02:22:03.188 INFO: GET 200 /Worksheet/gethint.php?q=jjkloumm
+- 02:22:06.157 INFO: GET 200 /Worksheet/gethint.php?q=w
+- 02:49:15.282 DEBUG: OnBeforeClose() hwnd=1902636
+- 02:49:15.297 DEBUG: RemoveBrowserWindow(): hwnd = 1902636
+- 02:49:15.625 DEBUG: WM_DESTROY
+- 02:49:15.625 DEBUG: RemoveBrowserWindow(): hwnd = 788386
+- 02:49:15.625 INFO: Stopping Mongoose web server
+- 02:49:15.625 DEBUG: Mongoose webserver stopped immediately
+- 02:49:15.625 DEBUG: OnBeforeClose() hwnd=1247048
+- 02:49:15.625 DEBUG: RemoveBrowserWindow(): hwnd = 1247048
+- 02:49:15.625 DEBUG: GetBrowserWindow(): not found, hwnd = 1247048
+- 02:49:15.625 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 02:49:15.625 DEBUG: Calling CefQuitMessageLoop()
+- 02:49:15.031 DEBUG: OnBrowserDestroyed()
+- 02:49:15.469 DEBUG: OnBrowserDestroyed()
+- 02:49:15.016 INFO: Ended application
+- 02:49:15.016 INFO: --------------------------------------------------------
