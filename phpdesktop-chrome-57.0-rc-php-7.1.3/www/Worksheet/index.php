@@ -29,3 +29,5 @@ Last name: <input id="lastName" type="text" onchange="showHint(this.value);">
 <p>Suggestions: <span id="txtHint"></span></p>
 </body>
 </html>
+
+

@@ -4,5 +4,7 @@
     "git.enableSmartCommit": true,
     "git.promptToSaveFilesBeforeCommit": true,
     "git.alwaysSignOff": true,
-    "git.showPushSuccessNotification": true
+    "git.showPushSuccessNotification": true,
+    "php.validate.executablePath": "E:/Project/CEF_WorkTest/phpdesktop-chrome-57.0-rc-php-7.1.3/php/php.exe",
+    "php.executablePath": "E:/Project/CEF_WorkTest/phpdesktop-chrome-57.0-rc-php-7.1.3/php/php.exe"
 }
