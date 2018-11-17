@@ -1338,3 +1338,124 @@
 - 22:55:47.781 DEBUG: Calling CefQuitMessageLoop()
 - 22:55:47.812 INFO: Ended application
 - 22:55:47.812 INFO: --------------------------------------------------------
+- 00:33:05.047 INFO: --------------------------------------------------------
+- 00:33:05.047 INFO: Started application
+- 00:33:05.047 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 00:33:05.047 INFO: Log level = DEBUG4
+- 00:33:05.047 INFO: Starting Mongoose 3.9c web server
+- 00:33:05.047 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 00:33:05.047 INFO: Index files: index.html,index.php
+- 00:33:05.047 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 00:33:05.047 INFO: CGI pattern: **.php$
+- 00:33:05.047 INFO: Hide files patterns: 
+- 00:33:05.047 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 00:33:05.063 INFO: Web server url: http://127.0.0.1:57360/
+- 00:33:05.063 INFO: remote_debugging_port = 64588
+- 00:33:05.063 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=64588
+- 00:33:05.094 DEBUG: App::OnContextInitialized()
+- 00:33:05.094 DEBUG: Window max width/height = 1840/992
+- 00:33:05.094 DEBUG: GetBrowserWindow(): not found, hwnd = 3345170
+- 00:33:05.094 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 00:33:05.094 DEBUG: BrowserWindow::CreateBrowserControl()
+- 00:33:05.110 DEBUG: StoreBrowserWindow(): hwnd = 3345170
+- 00:33:05.141 DEBUG: ClientHandler::OnAfterCreated()
+- 00:33:05.141 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 00:33:05.141 DEBUG: OnLoadingStateChange: loading=1, url=
+- 00:33:05.000 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=094E300A98B695FC762AD4ED194C983C --mojo-platform-channel-handle=1696 /prefetch:2
+- 00:33:05.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=AD71EBF187D24C9C184FF6C5E26354A2 --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=AD71EBF187D24C9C184FF6C5E26354A2 --renderer-client-id=3 --mojo-platform-channel-handle=1892 /prefetch:1
+- 00:33:05.015 DEBUG: OnBrowserCreated()
+[1118/003305.824:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 00:33:07.688 INFO: GET 200 /style.css
+- 00:33:07.688 INFO: GET 200 /
+- 00:33:07.500 DEBUG: OnContextCreated()
+- 00:33:07.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57360/
+- 00:33:12.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57360/
+- 00:33:13.390 DEBUG: OnContextCreated()
+- 00:33:13.578 INFO: GET 200 /phpinfo.php
+- 00:33:13.766 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57360/phpinfo.php
+- 00:33:20.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57360/phpinfo.php
+- 00:33:21.406 DEBUG: OnContextCreated()
+- 00:33:21.594 INFO: GET 200 /index.php
+- 00:33:21.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57360/index.php
+- 00:33:25.985 INFO: GET 200 /index.php
+- 00:33:25.000 INFO: GET 200 /style.css
+- 00:33:26.844 INFO: GET 200 /favicon.ico
+- 00:33:31.875 INFO: GET 200 /phpinfo.php
+- 00:33:32.703 INFO: GET 200 /favicon.ico
+- 01:01:25.750 DEBUG: OnBeforeClose() hwnd=526962
+- 01:01:25.750 DEBUG: RemoveBrowserWindow(): hwnd = 526962
+- 01:01:25.750 DEBUG: GetBrowserWindow(): not found, hwnd = 526962
+- 01:01:25.750 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:02:29.062 INFO: --------------------------------------------------------
+- 01:02:29.062 INFO: Started application
+- 01:02:29.062 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 01:02:29.062 INFO: Log level = DEBUG4
+- 01:02:29.062 INFO: Starting Mongoose 3.9c web server
+- 01:02:29.062 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 01:02:29.062 INFO: Index files: index.html,index.php
+- 01:02:29.062 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 01:02:29.062 INFO: CGI pattern: **.php$
+- 01:02:29.062 INFO: Hide files patterns: 
+- 01:02:29.062 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 01:02:29.062 INFO: Web server url: http://127.0.0.1:62156/
+- 01:02:29.062 INFO: remote_debugging_port = 56229
+- 01:02:29.078 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=56229
+- 01:02:29.109 DEBUG: App::OnContextInitialized()
+- 01:02:29.125 DEBUG: Window max width/height = 1840/992
+- 01:02:29.125 DEBUG: GetBrowserWindow(): not found, hwnd = 396282
+- 01:02:29.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:02:29.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:02:29.125 DEBUG: StoreBrowserWindow(): hwnd = 396282
+- 01:02:29.140 DEBUG: ClientHandler::OnAfterCreated()
+- 01:02:29.140 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:02:29.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:02:29.000 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=1EB6D96B4C1653F25CF7D4A7627A861D --mojo-platform-channel-handle=1708 /prefetch:2
+- 01:02:29.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4367DB6CCB21B163FF65110039987784 --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4367DB6CCB21B163FF65110039987784 --renderer-client-id=3 --mojo-platform-channel-handle=2280 /prefetch:1
+- 01:02:29.032 DEBUG: OnBrowserCreated()
+[1118/010229.471:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:02:30.312 INFO: GET 200 /style.css
+- 01:02:30.312 INFO: GET 200 /
+- 01:02:30.125 DEBUG: OnContextCreated()
+- 01:02:30.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62156/
+- 01:03:52.859 DEBUG: WM_DESTROY
+- 01:03:52.859 DEBUG: RemoveBrowserWindow(): hwnd = 396282
+- 01:03:52.859 INFO: Stopping Mongoose web server
+- 01:03:52.859 DEBUG: Mongoose webserver stopped immediately
+- 01:03:52.859 DEBUG: OnBeforeClose() hwnd=527394
+- 01:03:52.859 DEBUG: RemoveBrowserWindow(): hwnd = 527394
+- 01:03:52.859 DEBUG: GetBrowserWindow(): not found, hwnd = 527394
+- 01:03:52.875 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 01:03:52.875 DEBUG: Calling CefQuitMessageLoop()
+- 01:03:52.890 INFO: Ended application
+- 01:03:52.890 INFO: --------------------------------------------------------
+- 01:03:56.063 INFO: --------------------------------------------------------
+- 01:03:56.063 INFO: Started application
+- 01:03:56.063 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 01:03:56.063 INFO: Log level = DEBUG4
+- 01:03:56.063 INFO: Starting Mongoose 3.9c web server
+- 01:03:56.063 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 01:03:56.063 INFO: Index files: index.html,index.php
+- 01:03:56.063 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 01:03:56.063 INFO: CGI pattern: **.php$
+- 01:03:56.063 INFO: Hide files patterns: 
+- 01:03:56.063 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 01:03:56.063 INFO: Web server url: http://127.0.0.1:62174/
+- 01:03:56.063 INFO: remote_debugging_port = 62262
+- 01:03:56.063 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=62262
+- 01:03:56.110 DEBUG: App::OnContextInitialized()
+- 01:03:56.110 DEBUG: Window max width/height = 1840/992
+- 01:03:56.110 DEBUG: GetBrowserWindow(): not found, hwnd = 461814
+- 01:03:56.110 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 01:03:56.110 DEBUG: BrowserWindow::CreateBrowserControl()
+- 01:03:56.110 DEBUG: StoreBrowserWindow(): hwnd = 461814
+- 01:03:56.156 DEBUG: ClientHandler::OnAfterCreated()
+- 01:03:56.156 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 01:03:56.000 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=F6452ABC94CDB1438B3CD9F2FBA88146 --mojo-platform-channel-handle=1688 /prefetch:2
+- 01:03:56.156 DEBUG: OnLoadingStateChange: loading=1, url=
+- 01:03:56.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=A98510C6D3EF46FADFA81DAC8AC71FF4 --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=A98510C6D3EF46FADFA81DAC8AC71FF4 --renderer-client-id=3 --mojo-platform-channel-handle=2264 /prefetch:1
+- 01:03:56.031 DEBUG: OnBrowserCreated()
+[1118/010356.689:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 01:03:57.485 INFO: GET 200 /style.css
+- 01:03:57.485 INFO: GET 200 /
+- 01:03:57.297 DEBUG: OnContextCreated()
+- 01:03:57.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62174/

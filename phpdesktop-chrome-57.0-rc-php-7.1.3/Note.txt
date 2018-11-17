@@ -1,0 +1,1 @@
+PHPDesktop Project Can't Use PHP Debug, Because It IS Not Global Path, And The Service Is Not Global Accessable.
