@@ -1459,3 +1459,218 @@
 - 01:03:57.485 INFO: GET 200 /
 - 01:03:57.297 DEBUG: OnContextCreated()
 - 01:03:57.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62174/
+- 02:48:16.047 INFO: --------------------------------------------------------
+- 02:48:16.047 INFO: Started application
+- 02:48:16.047 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 02:48:16.047 INFO: Log level = DEBUG4
+- 02:48:16.047 INFO: Starting Mongoose 3.9c web server
+- 02:48:16.047 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 02:48:16.047 INFO: Index files: index.html,index.php
+- 02:48:16.047 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 02:48:16.047 INFO: CGI pattern: **.php$
+- 02:48:16.062 INFO: Hide files patterns: 
+- 02:48:16.062 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 02:48:16.062 INFO: Web server url: http://127.0.0.1:63775/
+- 02:48:16.062 INFO: remote_debugging_port = 62088
+- 02:48:16.062 DEBUG: Command line string for the browser process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=62088
+- 02:48:17.109 DEBUG: App::OnContextInitialized()
+- 02:48:17.109 DEBUG: Window max width/height = 1840/992
+- 02:48:17.109 DEBUG: GetBrowserWindow(): not found, hwnd = 8390530
+- 02:48:17.109 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 02:48:17.109 DEBUG: BrowserWindow::CreateBrowserControl()
+- 02:48:17.109 DEBUG: StoreBrowserWindow(): hwnd = 8390530
+- 02:48:17.125 DEBUG: ClientHandler::OnAfterCreated()
+- 02:48:17.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 02:48:17.000 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=D8D186BBCEDBA396854D1FDC3090B50D --mojo-platform-channel-handle=1688 /prefetch:2
+- 02:48:17.140 DEBUG: OnLoadingStateChange: loading=1, url=
+- 02:48:17.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=7136293C87842E64F4E7D4FA3C763DEE --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=7136293C87842E64F4E7D4FA3C763DEE --renderer-client-id=3 --mojo-platform-channel-handle=2260 /prefetch:1
+- 02:48:17.031 DEBUG: OnBrowserCreated()
+[1118/024817.120:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 02:48:18.468 INFO: GET 200 /style.css
+- 02:48:18.468 INFO: GET 200 /
+- 02:48:18.296 DEBUG: OnContextCreated()
+- 02:48:18.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/
+- 02:48:24.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/
+- 02:48:24.093 INFO: GET -1 /phpLiteAdmin_v1-9-7-1
+- 02:48:24.921 DEBUG: OnContextCreated()
+- 02:48:25.140 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/
+- 02:48:25.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/
+- 02:48:26.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/
+- 02:48:26.718 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/Apple
+- 02:48:26.781 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/Apple
+- 02:48:26.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/
+- 02:48:26.843 INFO: About to download a file: Apple
+- 02:48:29.515 INFO: Download was cancelled
+- 02:48:31.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/
+- 02:48:31.718 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:48:31.562 DEBUG: OnContextCreated()
+- 02:48:31.015 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 02:48:31.015 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 02:48:32.125 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:48:58.281 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:48:58.484 DEBUG: OnContextCreated()
+- 02:48:58.843 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:48:58.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:49:02.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:49:02.828 DEBUG: OnContextCreated()
+- 02:49:03.203 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?switchdb=.%5CApple
+- 02:49:03.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?switchdb=.%5CApple
+- 02:49:11.593 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?switchdb=.%5CApple
+- 02:49:11.875 DEBUG: OnContextCreated()
+- 02:49:11.047 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=delete
+- 02:49:11.062 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=delete
+- 02:49:13.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=delete
+- 02:49:13.843 DEBUG: OnContextCreated()
+- 02:49:13.015 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?database_delete=1
+- 02:49:13.031 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?database_delete=1
+- 02:49:29.656 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?database_delete=1
+- 02:49:29.843 DEBUG: OnContextCreated()
+- 02:49:30.422 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:49:30.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:50:01.125 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:50:01.218 DEBUG: OnContextCreated()
+- 02:50:01.593 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=table_create
+- 02:50:01.687 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=table_create
+- 02:51:12.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=table_create
+- 02:51:12.828 DEBUG: OnContextCreated()
+- 02:51:12.000 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=table_create&confirm=1
+- 02:51:12.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=table_create&confirm=1
+- 02:51:14.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=table_create&confirm=1
+- 02:51:15.968 DEBUG: OnContextCreated()
+- 02:51:15.343 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?&action=column_view&table=WorkType
+- 02:51:15.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?&action=column_view&table=WorkType
+- 02:51:15.828 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?&action=column_view&table=WorkType
+- 02:51:15.906 DEBUG: OnContextCreated()
+- 02:51:16.281 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=row_view&table=WorkType
+- 02:51:16.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=row_view&table=WorkType
+- 02:51:17.187 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=row_view&table=WorkType
+- 02:51:17.265 DEBUG: OnContextCreated()
+- 02:51:17.640 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=row_view&table=WorkType
+- 02:51:17.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=row_view&table=WorkType
+- 02:51:18.734 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=row_view&table=WorkType
+- 02:51:18.812 DEBUG: OnContextCreated()
+- 02:51:19.187 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:51:19.187 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:51:32.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:51:32.593 DEBUG: OnContextCreated()
+- 02:51:32.968 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create
+- 02:51:32.968 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create
+- 02:51:58.015 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create
+- 02:51:59.390 DEBUG: OnContextCreated()
+- 02:51:59.562 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create&confirm=1
+- 02:51:59.562 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create&confirm=1
+- 02:52:00.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create&confirm=1
+- 02:52:01.953 DEBUG: OnContextCreated()
+- 02:52:01.328 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:52:01.343 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:52:07.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:52:07.671 DEBUG: OnContextCreated()
+- 02:52:07.843 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_confirm
+- 02:52:07.843 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_confirm
+- 02:52:10.265 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_confirm
+- 02:52:10.671 DEBUG: OnContextCreated()
+- 02:52:10.843 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_delete&confirm=1&pk=Work_Class%3AWork_Type2
+- 02:52:10.843 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_delete&confirm=1&pk=Work_Class%3AWork_Type2
+- 02:52:11.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_delete&confirm=1&pk=Work_Class%3AWork_Type2
+- 02:52:11.796 DEBUG: OnContextCreated()
+- 02:52:12.172 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:52:12.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:52:17.531 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:52:17.625 DEBUG: OnContextCreated()
+- 02:52:17.000 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create
+- 02:52:17.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create
+- 02:52:21.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create
+- 02:52:21.546 DEBUG: OnContextCreated()
+- 02:52:21.718 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create&confirm=1
+- 02:52:21.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create&confirm=1
+- 02:52:23.156 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_create&confirm=1
+- 02:52:23.234 DEBUG: OnContextCreated()
+- 02:52:23.609 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:52:23.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:52:27.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:52:27.500 DEBUG: OnContextCreated()
+- 02:52:27.875 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_create
+- 02:52:27.906 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_create
+[1118/025229.616:INFO:CONSOLE(40)] "Uncaught TypeError: Cannot set property 'checked' of null", source: http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (40)
+[1118/025248.543:INFO:CONSOLE(40)] "Uncaught TypeError: Cannot set property 'checked' of null", source: http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (40)
+- 02:52:55.718 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_create
+- 02:52:56.109 DEBUG: OnContextCreated()
+- 02:52:56.281 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_create&confirm=1
+- 02:52:56.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_create&confirm=1
+- 02:52:58.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_create&confirm=1
+- 02:52:58.625 DEBUG: OnContextCreated()
+- 02:52:58.000 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=row_view&table=WorkType
+- 02:52:58.015 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=row_view&table=WorkType
+- 02:52:59.890 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=row_view&table=WorkType
+- 02:53:00.968 DEBUG: OnContextCreated()
+- 02:53:00.343 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:53:00.359 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:53:04.484 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:53:04.765 DEBUG: OnContextCreated()
+- 02:53:04.937 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_confirm
+- 02:53:04.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_confirm
+- 02:53:06.812 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_confirm
+- 02:53:07.234 DEBUG: OnContextCreated()
+- 02:53:07.406 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_delete&confirm=1&pk=123
+- 02:53:07.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_delete&confirm=1&pk=123
+- 02:53:08.765 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_delete&confirm=1&pk=123
+- 02:53:08.859 DEBUG: OnContextCreated()
+- 02:53:09.234 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:53:09.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:53:10.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 02:53:11.140 DEBUG: OnContextCreated()
+- 02:53:11.515 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_view
+- 02:53:11.515 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_view
+- 02:53:25.750 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_view
+- 02:53:25.843 DEBUG: OnContextCreated()
+- 02:53:26.218 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_editordelete&pk=%5B1%5D&type=edit
+- 02:53:26.218 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_editordelete&pk=%5B1%5D&type=edit
+- 02:53:30.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_editordelete&pk=%5B1%5D&type=edit
+- 02:53:30.453 DEBUG: OnContextCreated()
+- 02:53:30.625 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_edit&confirm=1&pk=%5B%22%5B1%5D%22%5D
+- 02:53:30.640 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_edit&confirm=1&pk=%5B%22%5B1%5D%22%5D
+- 02:53:34.781 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_edit&confirm=1&pk=%5B%22%5B1%5D%22%5D
+- 02:53:34.859 DEBUG: OnContextCreated()
+- 02:53:35.234 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_view
+- 02:53:35.234 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_view
+- 02:53:38.265 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_view
+- 02:53:38.359 DEBUG: OnContextCreated()
+- 02:53:38.734 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_editordelete&pk=%5B1%5D&type=edit
+- 02:53:38.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_editordelete&pk=%5B1%5D&type=edit
+- 02:53:44.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_editordelete&pk=%5B1%5D&type=edit
+- 02:53:44.562 DEBUG: OnContextCreated()
+- 02:53:44.734 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_edit&confirm=1&pk=%5B%22%5B1%5D%22%5D
+- 02:53:44.734 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_edit&confirm=1&pk=%5B%22%5B1%5D%22%5D
+- 02:53:48.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_edit&confirm=1&pk=%5B%22%5B1%5D%22%5D
+- 02:53:48.875 DEBUG: OnContextCreated()
+- 02:53:49.250 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_view
+- 02:53:49.265 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_view
+- 02:55:28.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=row_view
+- 02:55:28.765 DEBUG: OnContextCreated()
+- 02:55:29.125 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=table_export
+- 02:55:29.140 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=table_export
+- 02:55:30.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=table_export
+- 02:55:30.328 DEBUG: OnContextCreated()
+- 02:55:30.703 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=table_import
+- 02:55:30.765 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=table_import
+- 02:55:31.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=table_import
+- 02:55:31.625 DEBUG: OnContextCreated()
+- 02:55:31.000 INFO: GET 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=table_export
+- 02:55:31.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=table_export
+- 02:55:45.140 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=table_export
+- 02:55:45.390 DEBUG: OnLoadError, errorCode=-3, failedUrl=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:55:45.390 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63775/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=table_export
+- 02:55:45.390 INFO: About to download a file: Schedule_WorkType_2018-11-17.dump.sql
+- 02:55:45.390 INFO: POST 200 /phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 02:55:50.031 INFO: Download completed, saved to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\Schedule_WorkType_2018-11-17.dump.sql
+- 02:57:17.203 DEBUG: WM_DESTROY
+- 02:57:17.203 DEBUG: RemoveBrowserWindow(): hwnd = 8390530
+- 02:57:17.203 INFO: Stopping Mongoose web server
+- 02:57:17.203 DEBUG: Mongoose webserver stopped immediately
+- 02:57:17.203 DEBUG: OnBeforeClose() hwnd=6490464
+- 02:57:17.203 DEBUG: RemoveBrowserWindow(): hwnd = 6490464
+- 02:57:17.203 DEBUG: GetBrowserWindow(): not found, hwnd = 6490464
+- 02:57:17.203 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 02:57:17.203 DEBUG: Calling CefQuitMessageLoop()
+- 02:57:17.265 INFO: Ended application
+- 02:57:17.265 INFO: --------------------------------------------------------
