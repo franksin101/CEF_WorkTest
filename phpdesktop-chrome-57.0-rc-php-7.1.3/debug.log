@@ -1766,3 +1766,1103 @@
 - 14:51:42.391 DEBUG: OnBrowserDestroyed()
 - 14:51:42.641 INFO: Ended application
 - 14:51:42.641 INFO: --------------------------------------------------------
+- 11:21:44.125 INFO: --------------------------------------------------------
+- 11:21:44.156 INFO: Started application
+- 11:21:44.156 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:21:44.156 INFO: Log level = DEBUG4
+- 11:21:44.156 INFO: Starting Mongoose 3.9c web server
+- 11:21:44.156 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:21:44.156 INFO: Index files: index.html,index.php
+- 11:21:44.156 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:21:44.156 INFO: CGI pattern: **.php$
+- 11:21:44.156 INFO: Hide files patterns: 
+- 11:21:44.156 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:21:44.156 INFO: Web server url: http://127.0.0.1:63809/
+- 11:21:44.156 INFO: remote_debugging_port = 54963
+- 11:21:44.297 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=54963
+- 11:21:46.000 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=ECFBEF286F9B68FE225B76AD3D71549E --mojo-platform-channel-handle=1856 /prefetch:2
+- 11:21:48.547 DEBUG: App::OnContextInitialized()
+- 11:21:48.547 DEBUG: Window max width/height = 1840/992
+- 11:21:48.563 DEBUG: GetBrowserWindow(): not found, hwnd = 264646
+- 11:21:48.563 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:21:48.563 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:21:48.563 DEBUG: StoreBrowserWindow(): hwnd = 264646
+[1201/112148.236:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:21:48.078 DEBUG: ClientHandler::OnAfterCreated()
+- 11:21:48.078 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:21:48.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=59BC193AB07B472437317A042A1179D7 --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=59BC193AB07B472437317A042A1179D7 --renderer-client-id=3 --mojo-platform-channel-handle=2164 /prefetch:1
+- 11:21:48.281 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:21:50.562 DEBUG: OnBrowserCreated()
+- 11:21:53.359 INFO: GET 200 /
+- 11:21:54.625 INFO: GET 200 /style.css
+- 11:21:54.031 DEBUG: OnContextCreated()
+- 11:21:55.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/
+- 11:21:57.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/
+- 11:21:57.406 INFO: GET -1 /SomeWork
+- 11:21:57.406 INFO: GET 200 /SomeWork/
+- 11:21:57.172 DEBUG: OnContextCreated()
+- 11:21:58.563 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/
+- 11:21:59.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/
+- 11:22:00.453 DEBUG: OnContextCreated()
+- 11:22:00.719 INFO: GET 200 /SomeWork/main.php
+- 11:22:00.781 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap-grid.css
+- 11:22:00.781 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 11:22:00.781 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 11:22:00.781 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.js
+- 11:22:00.781 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.css
+- 11:22:00.781 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 11:22:00.781 INFO: GET 200 /SomeWork/js/underscore-min.js
+[1201/112200.447:INFO:CONSOLE(122)] "Uncaught TypeError: Cannot read property 'fn' of undefined", source: http://127.0.0.1:63809/SomeWork/bootstrap4/js/bootstrap.js (122)
+- 11:22:00.078 INFO: GET 200 /SomeWork/js/myapp.js
+- 11:22:00.078 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery.js
+[1201/112200.589:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: http://127.0.0.1:63809/SomeWork/jquery-ui-1.12.1/external/jquery.js (1)
+[1201/112200.954:INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'extend' of undefined", source: http://127.0.0.1:63809/SomeWork/js/backbone-min.js (1)
+[1201/112200.984:INFO:CONSOLE(1)] "Uncaught SyntaxError: Unexpected token <", source: http://127.0.0.1:63809/SomeWork/js//myapp.js (1)
+- 11:22:01.531 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php
+- 11:22:03.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php
+- 11:22:03.578 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:03.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:03.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:04.063 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:04.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:05.891 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:05.891 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:06.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:06.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:06.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:06.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:07.406 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:07.406 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:08.141 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:08.141 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:10.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:10.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:10.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:10.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:11.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:11.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:63809/SomeWork/main.php#
+- 11:22:12.453 DEBUG: WM_DESTROY
+- 11:22:12.453 DEBUG: RemoveBrowserWindow(): hwnd = 264646
+- 11:22:12.453 INFO: Stopping Mongoose web server
+- 11:22:12.453 DEBUG: Mongoose webserver stopped immediately
+- 11:22:12.453 DEBUG: OnBeforeClose() hwnd=461224
+- 11:22:12.453 DEBUG: RemoveBrowserWindow(): hwnd = 461224
+- 11:22:12.453 DEBUG: GetBrowserWindow(): not found, hwnd = 461224
+- 11:22:12.453 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 11:22:12.453 DEBUG: Calling CefQuitMessageLoop()
+- 11:22:13.265 DEBUG: OnBrowserDestroyed()
+- 11:22:13.797 INFO: Ended application
+- 11:22:13.797 INFO: --------------------------------------------------------
+- 11:23:14.062 INFO: --------------------------------------------------------
+- 11:23:14.062 INFO: Started application
+- 11:23:14.062 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 11:23:14.062 INFO: Log level = DEBUG4
+- 11:23:14.062 INFO: Starting Mongoose 3.9c web server
+- 11:23:14.062 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 11:23:14.062 INFO: Index files: index.html,index.php
+- 11:23:14.062 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 11:23:14.062 INFO: CGI pattern: **.php$
+- 11:23:14.062 INFO: Hide files patterns: 
+- 11:23:14.062 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 11:23:14.078 INFO: Web server url: http://127.0.0.1:64241/
+- 11:23:14.078 INFO: remote_debugging_port = 65243
+- 11:23:14.078 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=65243
+- 11:23:14.156 DEBUG: App::OnContextInitialized()
+- 11:23:14.156 DEBUG: Window max width/height = 1840/992
+- 11:23:14.156 DEBUG: GetBrowserWindow(): not found, hwnd = 395732
+- 11:23:14.156 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 11:23:14.156 DEBUG: BrowserWindow::CreateBrowserControl()
+- 11:23:14.156 DEBUG: StoreBrowserWindow(): hwnd = 395732
+- 11:23:14.203 DEBUG: ClientHandler::OnAfterCreated()
+- 11:23:14.203 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 11:23:14.219 DEBUG: OnLoadingStateChange: loading=1, url=
+- 11:23:14.000 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=2EE205CCE5C640D54FD92A8D51B70AB8 --mojo-platform-channel-handle=1440 /prefetch:2
+- 11:23:15.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=4B82CFBA02DC53FCFCB2F0D1EBF9CB33 --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=4B82CFBA02DC53FCFCB2F0D1EBF9CB33 --renderer-client-id=3 --mojo-platform-channel-handle=2264 /prefetch:1
+- 11:23:15.109 DEBUG: OnBrowserCreated()
+[1201/112315.144:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 11:23:16.734 INFO: GET 200 /
+- 11:23:16.734 INFO: GET 200 /style.css
+- 11:23:16.406 DEBUG: OnContextCreated()
+- 11:23:16.781 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:64241/
+- 11:23:21.812 INFO: GET 200 /style.css
+- 11:23:21.844 INFO: GET 200 /
+- 11:23:22.609 INFO: GET 200 /favicon.ico
+- 11:23:23.766 INFO: GET 200 /SomeWork/
+- 11:23:23.750 INFO: GET -1 /SomeWork
+- 11:23:24.328 INFO: GET 200 /favicon.ico
+- 11:23:26.250 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.css
+- 11:23:26.266 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap-grid.css
+- 11:23:26.266 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 11:23:26.266 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.js
+- 11:23:26.281 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 11:23:26.281 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 11:23:26.297 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 11:23:26.297 INFO: GET 200 /SomeWork/main.php
+- 11:23:27.609 INFO: GET 200 /SomeWork/js/myapp.js
+- 11:23:27.609 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery.js
+- 11:23:27.047 INFO: GET 200 /favicon.ico
+- 11:25:01.687 INFO: GET 200 /SomeWork/main.php
+- 11:25:01.734 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 11:25:01.719 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 11:25:01.062 INFO: GET 200 /SomeWork/js/myapp.js
+- 11:25:01.062 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery.js
+- 11:25:02.547 INFO: GET 200 /favicon.ico
+- 11:27:27.172 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap-reboot.min.css
+- 11:27:27.187 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 11:27:27.187 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap-grid.min.css
+- 11:27:27.219 INFO: GET 200 /SomeWork/main.php
+- 11:27:28.547 INFO: GET 200 /SomeWork/js/myapp.js
+- 11:27:28.547 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery.js
+- 11:27:28.000 INFO: GET 200 /favicon.ico
+- 11:32:16.000 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 11:32:16.000 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 11:32:16.031 INFO: GET 200 /SomeWork/main.php
+- 11:32:17.344 INFO: GET 200 /SomeWork/js/myapp.js
+- 11:32:17.344 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery.js
+- 11:32:17.797 INFO: GET 200 /favicon.ico
+- 11:33:04.328 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 11:33:04.328 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 11:33:04.344 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 11:33:04.344 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 11:33:04.375 INFO: GET 200 /SomeWork/main.php
+- 11:33:04.672 INFO: GET 200 /SomeWork/js/myapp.js
+- 11:33:04.109 INFO: GET 200 /favicon.ico
+- 11:33:29.500 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 11:33:29.516 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 11:33:29.516 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 11:33:29.562 INFO: GET 200 /SomeWork/main.php
+- 11:33:29.187 INFO: GET 200 /favicon.ico
+- 11:33:32.031 INFO: GET 200 /favicon.ico
+- 11:33:33.594 INFO: GET 200 /favicon.ico
+- 11:33:35.719 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 11:33:35.734 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 11:33:35.734 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 11:33:35.750 INFO: GET 200 /SomeWork/main.php
+- 11:33:35.250 INFO: GET 200 /favicon.ico
+- 12:30:08.812 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 12:30:08.828 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 12:30:08.828 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 12:30:08.828 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 12:30:08.828 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 12:30:08.859 INFO: GET 200 /SomeWork/main.php
+- 12:30:08.828 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 12:30:09.656 INFO: GET 200 /favicon.ico
+- 12:31:17.609 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 12:31:17.625 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 12:31:17.625 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 12:31:17.625 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 12:31:17.625 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 12:31:17.625 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 12:31:17.656 INFO: GET 200 /SomeWork/main.php
+- 12:31:17.281 INFO: GET 200 /favicon.ico
+- 12:31:23.359 INFO: GET 200 /favicon.ico
+- 12:31:23.797 INFO: GET 200 /favicon.ico
+- 12:31:24.516 INFO: GET 200 /favicon.ico
+- 12:32:49.203 INFO: GET 200 /SomeWork/main.php
+- 12:32:49.219 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 12:32:49.234 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 12:32:49.234 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 12:32:49.234 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 12:32:49.250 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 12:32:49.250 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 12:32:50.906 INFO: GET 200 /favicon.ico
+- 12:32:51.141 INFO: GET 200 /favicon.ico
+- 12:32:52.859 INFO: GET 200 /favicon.ico
+- 12:32:53.469 INFO: GET 200 /favicon.ico
+- 12:54:37.375 INFO: GET 200 /SomeWork/main.php
+- 12:54:37.375 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 12:54:37.391 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.bundle.min.js
+- 12:54:37.391 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 12:54:37.391 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 12:54:37.391 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 12:54:37.391 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 12:54:37.984 INFO: GET 200 /favicon.ico
+- 12:54:38.812 INFO: GET 200 /favicon.ico
+- 12:54:39.016 INFO: GET 200 /favicon.ico
+- 12:54:40.703 INFO: GET 200 /favicon.ico
+- 12:54:41.625 INFO: GET 200 /favicon.ico
+- 12:54:47.047 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 12:54:47.094 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.bundle.min.js.map
+- 12:54:47.109 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css.map
+- 12:54:48.406 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 12:57:51.562 INFO: GET 200 /SomeWork/main.php
+- 12:57:51.562 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 12:57:51.578 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 12:57:51.578 INFO: GET 200 /SomeWork/js/popper.min.js
+- 12:57:51.578 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 12:57:51.578 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 12:57:51.578 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 12:57:51.578 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 12:57:51.875 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js.map
+- 12:57:51.172 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 12:57:52.391 INFO: GET 200 /favicon.ico
+- 12:57:52.391 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 12:57:53.203 INFO: GET 200 /favicon.ico
+- 12:57:55.562 INFO: GET 200 /favicon.ico
+- 12:57:55.125 INFO: GET 200 /favicon.ico
+- 12:57:56.844 INFO: GET 200 /favicon.ico
+- 12:59:01.781 INFO: GET 200 /SomeWork/main.php
+- 12:59:01.797 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 12:59:01.812 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 12:59:01.812 INFO: GET 304 /SomeWork/js/popper.min.js
+- 12:59:01.812 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 12:59:01.812 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 12:59:01.812 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 12:59:01.812 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 12:59:02.375 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 12:59:02.562 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 12:59:02.594 INFO: GET 200 /favicon.ico
+- 12:59:02.203 INFO: GET 200 /favicon.ico
+- 12:59:04.344 INFO: GET 200 /favicon.ico
+- 12:59:05.406 INFO: GET 200 /favicon.ico
+- 12:59:21.094 INFO: GET 200 /SomeWork/main.php
+- 12:59:21.109 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 12:59:21.125 INFO: GET 304 /SomeWork/js/popper.min.js
+- 12:59:21.125 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 12:59:21.125 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 12:59:21.125 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 12:59:21.125 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 12:59:21.125 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 12:59:22.828 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 12:59:22.828 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 12:59:22.922 INFO: GET 200 /favicon.ico
+- 12:59:23.359 INFO: GET 200 /favicon.ico
+- 12:59:24.328 INFO: GET 200 /favicon.ico
+- 13:01:35.578 INFO: GET 200 /SomeWork/main.php
+- 13:01:35.594 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 13:01:35.609 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 13:01:35.609 INFO: GET 304 /SomeWork/js/popper.min.js
+- 13:01:35.609 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 13:01:35.609 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 13:01:35.609 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 13:01:35.609 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 13:01:35.250 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 13:01:35.250 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 13:01:36.391 INFO: GET 200 /favicon.ico
+- 13:04:46.234 INFO: GET 200 /SomeWork/main.php
+- 13:04:46.250 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 13:04:46.266 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 13:04:46.266 INFO: GET 304 /SomeWork/js/popper.min.js
+- 13:04:46.266 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 13:04:46.266 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 13:04:46.266 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 13:04:46.266 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 13:04:47.953 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 13:04:47.953 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 13:04:47.125 INFO: GET 200 /favicon.ico
+- 13:05:36.500 INFO: GET 200 /SomeWork/main.php
+- 13:05:36.531 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 13:05:36.531 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 13:05:36.531 INFO: GET 304 /SomeWork/js/popper.min.js
+- 13:05:36.531 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 13:05:36.531 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 13:05:36.547 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 13:05:36.547 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 13:05:36.203 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 13:05:36.281 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 13:05:36.266 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 13:05:37.531 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 13:05:37.531 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 13:05:37.922 INFO: GET 200 /favicon.ico
+- 13:05:43.266 INFO: POST 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 13:06:00.687 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?switchdb=.%5CSchedule
+- 13:06:48.047 INFO: GET 200 /SomeWork/main.php
+- 13:06:48.094 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 13:06:48.094 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 13:06:48.094 INFO: GET 304 /SomeWork/js/popper.min.js
+- 13:06:48.094 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 13:06:48.094 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 13:06:48.094 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 13:06:48.094 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 13:06:49.781 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 13:06:49.781 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 13:06:49.000 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 13:06:50.391 INFO: GET 200 /favicon.ico
+- 13:07:27.328 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 13:07:27.344 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 13:07:27.344 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 13:07:27.344 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 13:07:27.344 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 13:07:27.344 INFO: GET 304 /SomeWork/js/popper.min.js
+- 13:07:27.344 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 13:07:27.344 INFO: GET 200 /SomeWork/main.php
+- 13:07:27.047 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 13:07:27.047 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 13:07:27.219 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 13:07:28.609 INFO: GET 200 /favicon.ico
+- 13:07:35.719 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=sql
+- 13:07:36.609 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=export
+- 13:07:38.781 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=import
+- 13:07:39.344 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=vacuum
+- 13:07:39.141 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=rename
+- 13:07:40.141 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=delete
+- 13:09:52.656 INFO: GET 200 /SomeWork/main.php
+- 13:09:52.687 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 13:09:52.703 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 13:09:52.703 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 13:09:52.703 INFO: GET 304 /SomeWork/js/popper.min.js
+- 13:09:52.703 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 13:09:52.703 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 13:09:52.703 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 13:09:53.391 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 13:09:53.406 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 13:09:53.578 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 13:09:53.016 INFO: GET 200 /favicon.ico
+- 13:11:05.250 INFO: GET 200 /SomeWork/main.php
+- 13:11:05.297 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 13:11:05.297 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 13:11:05.297 INFO: GET 304 /SomeWork/js/popper.min.js
+- 13:11:05.297 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 13:11:05.297 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 13:11:05.297 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 13:11:05.297 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 13:11:06.000 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 13:11:06.000 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 13:11:06.172 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 13:11:07.594 INFO: GET 200 /favicon.ico
+- 13:11:22.141 INFO: GET 200 /SomeWork/main.php
+- 13:11:22.172 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 13:11:22.187 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 13:11:22.187 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 13:11:22.187 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 13:11:22.187 INFO: GET 304 /SomeWork/js/popper.min.js
+- 13:11:22.187 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 13:11:22.187 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 13:11:23.797 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 13:11:23.812 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 13:11:23.047 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 13:11:24.422 INFO: GET 200 /favicon.ico
+- 13:13:14.422 INFO: GET 200 /SomeWork/main.php
+- 13:13:14.453 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 13:13:14.469 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 13:13:14.469 INFO: GET 304 /SomeWork/js/popper.min.js
+- 13:13:14.469 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 13:13:14.469 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 13:13:14.469 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 13:13:14.469 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 13:13:14.094 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 13:13:14.094 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 13:13:14.281 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 13:13:15.656 INFO: GET 200 /favicon.ico
+- 13:14:25.859 INFO: GET 200 /SomeWork/main.php
+- 13:14:25.891 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 13:14:25.891 INFO: GET 304 /SomeWork/js/jquery-3.3.1.min.js
+- 13:14:25.906 INFO: GET 304 /SomeWork/js/popper.min.js
+- 13:14:25.906 INFO: GET 304 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 13:14:25.906 INFO: GET 304 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 13:14:25.906 INFO: GET 304 /SomeWork/js/backbone-min.js
+- 13:14:25.906 INFO: GET 304 /SomeWork/js/underscore-min.js
+- 13:14:25.203 INFO: GET 304 /SomeWork/bootstrap4/css/bootstrap.min.css.map
+- 13:14:26.625 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 13:14:26.625 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 13:14:26.797 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 13:14:26.187 INFO: GET 200 /favicon.ico
+- 09:20:32.157 INFO: --------------------------------------------------------
+- 09:20:32.157 INFO: Started application
+- 09:20:32.157 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 09:20:32.157 INFO: Log level = DEBUG4
+- 09:20:32.157 INFO: Starting Mongoose 3.9c web server
+- 09:20:32.157 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 09:20:32.157 INFO: Index files: index.html,index.php
+- 09:20:32.157 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 09:20:32.157 INFO: CGI pattern: **.php$
+- 09:20:32.157 INFO: Hide files patterns: 
+- 09:20:32.157 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 09:20:32.172 INFO: Web server url: http://127.0.0.1:62407/
+- 09:20:32.172 INFO: remote_debugging_port = 58323
+- 09:20:32.297 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=58323
+- 09:20:34.000 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=EC93D83BF0217EB91E5318E95E0F13FE --mojo-platform-channel-handle=1852 /prefetch:2
+[1202/092035.757:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 09:20:36.672 DEBUG: App::OnContextInitialized()
+- 09:20:36.672 DEBUG: Window max width/height = 1840/992
+- 09:20:36.672 DEBUG: GetBrowserWindow(): not found, hwnd = 329060
+- 09:20:36.672 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 09:20:36.672 DEBUG: BrowserWindow::CreateBrowserControl()
+- 09:20:36.672 DEBUG: StoreBrowserWindow(): hwnd = 329060
+- 09:20:36.125 DEBUG: ClientHandler::OnAfterCreated()
+- 09:20:36.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 09:20:36.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=537972F51C4979BA0C4AA7C99AB6FBDB --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=537972F51C4979BA0C4AA7C99AB6FBDB --renderer-client-id=3 --mojo-platform-channel-handle=2224 /prefetch:1
+- 09:20:36.266 DEBUG: OnLoadingStateChange: loading=1, url=
+- 09:20:38.578 DEBUG: OnBrowserCreated()
+- 09:20:40.672 INFO: GET 200 /
+- 09:20:40.797 INFO: GET 200 /style.css
+- 09:20:40.734 DEBUG: OnContextCreated()
+- 09:20:40.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/
+- 09:20:42.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/
+- 09:20:42.282 INFO: GET -1 /SomeWork
+- 09:20:42.563 INFO: GET 200 /SomeWork/
+- 09:20:42.328 DEBUG: OnContextCreated()
+- 09:20:42.641 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:20:43.641 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:20:43.657 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:20:43.672 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:20:43.703 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:20:43.719 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:20:43.782 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:20:43.266 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:20:43.016 DEBUG: OnContextCreated()
+- 09:20:43.563 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 09:20:43.563 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/092043.933:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:20:43.625 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/
+- 09:24:13.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/
+- 09:24:14.453 DEBUG: OnContextCreated()
+- 09:24:14.719 INFO: GET 200 /SomeWork/
+- 09:24:14.735 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:24:14.735 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:24:14.735 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:24:14.735 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:24:14.735 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:24:14.735 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:24:14.735 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:24:14.812 DEBUG: OnContextCreated()
+- 09:24:14.078 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:24:14.360 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 09:24:14.360 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/092414.725:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:24:14.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/
+- 09:46:25.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/
+- 09:46:25.125 DEBUG: OnContextCreated()
+- 09:46:25.391 INFO: GET 200 /SomeWork/
+- 09:46:25.391 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:46:25.391 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:46:25.391 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:46:25.391 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:46:25.391 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:46:25.391 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:46:25.407 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:46:26.453 DEBUG: OnContextCreated()
+- 09:46:26.719 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:46:26.000 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 09:46:26.000 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/094626.373:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:46:26.016 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/
+- 09:46:29.657 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/
+- 09:46:29.657 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:46:29.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:46:29.516 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:46:30.094 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:46:30.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:46:30.594 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:46:30.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:47:09.407 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:47:10.422 DEBUG: OnContextCreated()
+- 09:47:10.688 INFO: GET 200 /SomeWork/
+- 09:47:10.688 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:47:10.688 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:47:10.688 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:47:10.688 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:47:10.688 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:47:10.688 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:47:10.703 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:47:10.781 DEBUG: OnContextCreated()
+- 09:47:10.047 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:47:10.328 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 09:47:10.328 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/094710.692:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:47:10.328 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:47:13.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:47:13.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:47:14.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:47:14.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:47:15.672 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:47:15.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:47:15.282 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:47:15.282 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:48:00.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:48:01.562 DEBUG: OnContextCreated()
+- 09:48:01.828 INFO: GET 200 /SomeWork/
+- 09:48:01.844 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:48:01.844 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:48:01.844 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:48:01.844 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:48:01.844 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:48:01.844 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:48:01.844 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:48:01.922 DEBUG: OnContextCreated()
+- 09:48:01.188 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:48:01.469 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 09:48:01.469 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/094801.831:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:48:01.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:48:09.969 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:48:09.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:48:09.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:48:09.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:48:10.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:48:10.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:48:44.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:48:45.516 DEBUG: OnContextCreated()
+- 09:48:45.797 INFO: GET 200 /SomeWork/
+- 09:48:45.797 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:48:45.797 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:48:45.797 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:48:45.797 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:48:45.797 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:48:45.797 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:48:45.797 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:48:45.875 DEBUG: OnContextCreated()
+- 09:48:45.141 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:48:45.422 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 09:48:45.422 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/094845.781:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:48:45.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:49:43.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:49:43.187 DEBUG: OnContextCreated()
+- 09:49:43.453 INFO: GET 200 /SomeWork/
+- 09:49:43.453 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:49:43.453 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:49:43.453 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:49:43.453 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:49:43.453 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:49:43.453 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:49:43.469 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:49:44.531 DEBUG: OnContextCreated()
+- 09:49:44.797 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:49:44.078 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 09:49:44.078 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/094944.447:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:49:44.094 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:50:07.547 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:50:08.547 DEBUG: OnContextCreated()
+- 09:50:08.813 INFO: GET 200 /SomeWork/
+- 09:50:08.828 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:50:08.828 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:50:08.828 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:50:08.828 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:50:08.828 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:50:08.828 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:50:08.828 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:50:08.891 DEBUG: OnContextCreated()
+- 09:50:08.172 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:50:08.453 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 09:50:08.453 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/095008.813:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:50:08.453 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:52:07.032 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:52:07.047 DEBUG: OnContextCreated()
+- 09:52:07.313 INFO: GET 200 /SomeWork/
+- 09:52:07.313 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:52:07.328 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:52:07.328 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:52:07.328 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:52:07.313 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:52:07.313 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:52:07.328 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:52:08.406 DEBUG: OnContextCreated()
+- 09:52:08.672 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:52:08.953 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 09:52:08.953 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/095208.319:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:52:08.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:52:25.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:52:25.734 DEBUG: OnContextCreated()
+- 09:52:25.000 INFO: GET 200 /SomeWork/
+- 09:52:25.016 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:52:25.016 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:52:25.016 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:52:25.016 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:52:25.016 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:52:25.016 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:52:25.016 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:52:25.094 DEBUG: OnContextCreated()
+- 09:52:25.360 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:52:26.641 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 09:52:26.641 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/095226.008:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:52:26.657 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:53:50.500 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:53:51.516 DEBUG: OnContextCreated()
+- 09:53:51.782 INFO: GET 200 /SomeWork/
+- 09:53:51.782 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:53:51.782 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:53:51.782 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:53:51.782 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:53:51.782 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:53:51.782 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:53:51.782 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:53:51.875 DEBUG: OnContextCreated()
+- 09:53:51.141 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:53:51.422 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 09:53:51.422 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/095351.782:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:53:51.422 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:55:15.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:55:15.344 DEBUG: OnContextCreated()
+- 09:55:15.610 INFO: GET 200 /SomeWork/
+- 09:55:15.610 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:55:15.610 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:55:15.610 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:55:15.610 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:55:15.625 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:55:15.625 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:55:15.625 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:55:16.703 DEBUG: OnContextCreated()
+- 09:55:16.969 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:55:16.250 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 09:55:16.250 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/095516.614:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:55:16.250 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:55:38.047 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:55:38.047 DEBUG: OnContextCreated()
+- 09:55:38.313 INFO: GET 200 /SomeWork/
+- 09:55:38.328 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:55:38.328 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:55:38.328 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:55:38.328 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:55:38.328 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:55:38.328 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:55:38.328 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:55:39.391 DEBUG: OnContextCreated()
+- 09:55:39.657 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:55:39.938 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 09:55:39.938 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/095539.306:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:55:39.953 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:55:57.938 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:55:57.937 DEBUG: OnContextCreated()
+- 09:55:57.203 INFO: GET 200 /SomeWork/
+- 09:55:57.203 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:55:57.203 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:55:57.203 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:55:57.203 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:55:57.203 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:55:57.203 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:55:57.203 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:55:57.281 DEBUG: OnContextCreated()
+- 09:55:57.547 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:55:58.828 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 09:55:58.828 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/095558.194:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:55:58.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:59:11.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:59:11.094 DEBUG: OnContextCreated()
+- 09:59:11.360 INFO: GET 200 /SomeWork/
+- 09:59:11.360 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:59:11.360 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:59:11.360 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:59:11.360 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:59:11.360 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:59:11.360 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:59:11.360 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:59:12.437 DEBUG: OnContextCreated()
+- 09:59:12.703 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:59:12.985 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 09:59:12.985 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/095912.354:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:59:12.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 09:59:57.078 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 09:59:57.094 DEBUG: OnContextCreated()
+- 09:59:57.360 INFO: GET 200 /SomeWork/
+- 09:59:57.360 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 09:59:57.360 INFO: GET 200 /SomeWork/js/popper.min.js
+- 09:59:57.360 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 09:59:57.360 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 09:59:57.360 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 09:59:57.360 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 09:59:57.360 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 09:59:58.437 DEBUG: OnContextCreated()
+- 09:59:58.719 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 09:59:58.985 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 09:59:58.985 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/095958.357:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 09:59:58.000 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 10:02:06.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 10:02:07.453 DEBUG: OnContextCreated()
+- 10:02:07.719 INFO: GET 200 /SomeWork/
+- 10:02:07.735 INFO: GET 200 /SomeWork/js/popper.min.js
+- 10:02:07.735 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 10:02:07.735 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 10:02:07.735 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 10:02:07.735 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 10:02:07.735 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 10:02:07.735 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 10:02:07.812 DEBUG: OnContextCreated()
+- 10:02:07.078 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 10:02:07.360 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 10:02:07.360 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/100207.724:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 10:02:07.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 10:04:09.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 10:04:10.641 DEBUG: OnContextCreated()
+- 10:04:10.907 INFO: GET 200 /SomeWork/
+- 10:04:10.907 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 10:04:10.907 INFO: GET 200 /SomeWork/js/popper.min.js
+- 10:04:10.907 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 10:04:10.907 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 10:04:10.922 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 10:04:10.922 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 10:04:10.922 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 10:04:10.984 DEBUG: OnContextCreated()
+- 10:04:10.250 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 10:04:10.532 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 10:04:10.532 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/100410.902:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 10:04:10.547 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 10:06:45.610 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 10:06:46.625 DEBUG: OnContextCreated()
+- 10:06:46.891 INFO: GET 200 /SomeWork/
+- 10:06:46.891 INFO: GET 200 /SomeWork/js/popper.min.js
+- 10:06:46.891 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 10:06:46.891 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 10:06:46.891 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 10:06:46.891 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 10:06:46.891 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 10:06:46.907 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 10:06:46.984 DEBUG: OnContextCreated()
+- 10:06:46.250 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 10:06:46.532 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 10:06:46.532 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/100646.895:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 10:06:46.532 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 10:07:10.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 10:07:10.719 DEBUG: OnContextCreated()
+- 10:07:10.985 INFO: GET 200 /SomeWork/js/popper.min.js
+- 10:07:10.985 INFO: GET 200 /SomeWork/
+- 10:07:10.985 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 10:07:10.985 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 10:07:10.985 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 10:07:10.000 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 10:07:10.000 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 10:07:10.000 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 10:07:10.078 DEBUG: OnContextCreated()
+- 10:07:10.344 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 10:07:10.625 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 10:07:10.625 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/100710.995:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 10:07:11.641 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 10:15:43.703 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 10:15:43.703 DEBUG: OnContextCreated()
+- 10:15:43.985 INFO: GET 200 /SomeWork/
+- 10:15:43.985 INFO: GET 200 /SomeWork/js/popper.min.js
+- 10:15:43.985 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 10:15:43.985 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 10:15:43.985 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 10:15:43.985 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 10:15:43.985 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 10:15:43.985 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 10:15:43.062 DEBUG: OnContextCreated()
+- 10:15:43.328 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 10:15:43.610 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 10:15:43.610 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/101543.974:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 10:15:43.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 10:16:38.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 10:16:39.453 DEBUG: OnContextCreated()
+- 10:16:39.719 INFO: GET 200 /SomeWork/
+- 10:16:39.719 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 10:16:39.719 INFO: GET 200 /SomeWork/js/popper.min.js
+- 10:16:39.719 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 10:16:39.719 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 10:16:39.735 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 10:16:39.735 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 10:16:39.735 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 10:16:39.797 DEBUG: OnContextCreated()
+- 10:16:39.078 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 10:16:39.360 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 10:16:39.360 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/101639.722:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 10:16:39.360 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 10:17:10.782 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 10:17:10.781 DEBUG: OnContextCreated()
+- 10:17:10.047 INFO: GET 200 /SomeWork/
+- 10:17:10.047 INFO: GET 200 /SomeWork/js/popper.min.js
+- 10:17:10.047 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 10:17:10.047 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 10:17:10.047 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 10:17:10.063 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 10:17:10.063 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 10:17:10.063 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 10:17:10.125 DEBUG: OnContextCreated()
+- 10:17:10.407 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 10:17:11.688 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 10:17:11.688 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/101711.047:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 10:17:11.688 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 10:18:58.532 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 10:18:59.531 DEBUG: OnContextCreated()
+- 10:18:59.797 INFO: GET 200 /SomeWork/
+- 10:18:59.797 INFO: GET 200 /SomeWork/js/popper.min.js
+- 10:18:59.797 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 10:18:59.797 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 10:18:59.797 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 10:18:59.797 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 10:18:59.813 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 10:18:59.813 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 10:18:59.875 DEBUG: OnContextCreated()
+- 10:18:59.141 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 10:18:59.422 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 10:18:59.422 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/101859.795:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 10:18:59.438 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 11:58:05.438 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 11:58:06.453 DEBUG: OnContextCreated()
+- 11:58:06.719 INFO: GET 200 /SomeWork/
+- 11:58:06.735 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 11:58:06.735 INFO: GET 200 /SomeWork/js/popper.min.js
+- 11:58:06.735 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 11:58:06.735 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 11:58:06.735 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 11:58:06.735 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 11:58:06.735 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 11:58:06.735 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 11:58:06.032 INFO: GET 200 /SomeWork/./100px180/
+- 11:58:06.891 DEBUG: OnContextCreated()
+- 11:58:06.172 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 11:58:06.453 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 11:58:06.453 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/115806.822:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 11:58:06.469 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 11:58:19.110 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 11:58:19.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 11:58:51.907 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 11:58:51.922 DEBUG: OnContextCreated()
+- 11:58:51.188 INFO: GET 200 /SomeWork/
+- 11:58:51.188 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 11:58:51.188 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 11:58:51.188 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 11:58:51.203 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 11:58:51.203 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 11:58:51.203 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 11:58:51.203 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 11:58:51.188 INFO: GET 200 /SomeWork/js/popper.min.js
+- 11:58:51.516 INFO: GET 200 /SomeWork/./100px180/
+- 11:58:51.297 DEBUG: OnContextCreated()
+- 11:58:51.563 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 11:58:52.860 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 11:58:52.860 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/115852.221:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 11:58:52.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:07:25.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:07:25.734 DEBUG: OnContextCreated()
+- 14:07:25.000 INFO: GET 200 /SomeWork/
+- 14:07:25.016 INFO: GET 200 /SomeWork/js/popper.min.js
+- 14:07:25.016 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 14:07:25.016 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 14:07:25.016 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 14:07:25.016 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 14:07:25.016 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 14:07:25.016 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 14:07:25.016 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 14:07:25.297 INFO: GET 200 /SomeWork/./100px180/
+- 14:07:25.156 DEBUG: OnContextCreated()
+- 14:07:25.422 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 14:07:26.703 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 14:07:26.703 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/140726.065:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 14:07:26.703 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:10:17.625 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:10:18.641 DEBUG: OnContextCreated()
+- 14:10:18.907 INFO: GET 200 /SomeWork/
+- 14:10:18.907 INFO: GET 200 /SomeWork/js/popper.min.js
+- 14:10:18.907 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 14:10:18.907 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 14:10:18.907 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 14:10:18.907 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 14:10:18.922 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 14:10:18.922 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 14:10:18.907 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 14:10:18.203 INFO: GET 200 /SomeWork/./100px180/
+- 14:10:18.047 DEBUG: OnContextCreated()
+- 14:10:18.313 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 14:10:18.594 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 14:10:18.594 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/141018.964:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 14:10:18.610 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:10:19.453 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:10:20.469 DEBUG: OnContextCreated()
+- 14:10:20.735 INFO: GET 200 /SomeWork/
+- 14:10:20.735 INFO: GET 200 /SomeWork/js/popper.min.js
+- 14:10:20.735 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 14:10:20.735 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 14:10:20.750 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 14:10:20.750 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 14:10:20.750 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 14:10:20.750 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 14:10:20.750 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 14:10:20.047 INFO: GET 200 /SomeWork/./100px180/
+- 14:10:20.828 DEBUG: OnContextCreated()
+- 14:10:20.110 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 14:10:20.391 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 14:10:20.391 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/141020.754:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 14:10:20.391 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:11:16.235 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:11:16.235 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:11:23.516 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:11:24.578 DEBUG: OnContextCreated()
+[1202/141124.206:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/141124.408:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 14:11:24.047 INFO: POST 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 14:11:24.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:11:53.250 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:11:53.266 DEBUG: OnContextCreated()
+[1202/141153.903:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/141154.103:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?switchdb=.%5CSchedule (14)
+- 14:11:54.735 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?switchdb=.%5CSchedule
+- 14:11:54.750 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:11:56.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:11:56.703 DEBUG: OnContextCreated()
+[1202/141156.333:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 14:11:56.172 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=sql
+- 14:11:56.172 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:11:57.688 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:11:57.703 DEBUG: OnContextCreated()
+[1202/141157.334:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/141157.538:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=structure (14)
+- 14:11:57.172 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=structure
+- 14:11:57.188 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:03.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:03.828 DEBUG: OnContextCreated()
+[1202/141203.460:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 14:12:03.297 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=sql
+- 14:12:03.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:04.813 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:04.828 DEBUG: OnContextCreated()
+[1202/141204.455:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 14:12:04.297 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=export
+- 14:12:04.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:04.563 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:05.578 DEBUG: OnContextCreated()
+[1202/141205.215:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 14:12:05.063 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=import
+- 14:12:05.078 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:05.172 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:06.391 DEBUG: OnContextCreated()
+[1202/141206.022:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 14:12:06.657 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=vacuum
+- 14:12:06.672 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:06.578 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:07.594 DEBUG: OnContextCreated()
+[1202/141207.219:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/141207.423:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=structure (14)
+- 14:12:07.063 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?view=structure
+- 14:12:07.063 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:09.766 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:09.781 DEBUG: OnContextCreated()
+[1202/141209.405:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 14:12:09.250 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?action=row_view&table=WorkType
+- 14:12:09.266 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:12.719 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:12:12.719 DEBUG: OnContextCreated()
+[1202/141212.356:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+- 14:12:12.203 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?table=WorkType&action=column_view
+- 14:12:12.203 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:13:27.875 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:13:27.891 DEBUG: OnContextCreated()
+- 14:13:27.157 INFO: GET 200 /SomeWork/
+- 14:13:27.157 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 14:13:27.157 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 14:13:27.157 INFO: GET 200 /SomeWork/js/popper.min.js
+- 14:13:27.157 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 14:13:27.172 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 14:13:27.172 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 14:13:27.172 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 14:13:27.172 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 14:13:27.453 INFO: GET 200 /SomeWork/./100px180/
+- 14:13:27.297 DEBUG: OnContextCreated()
+- 14:13:28.766 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 14:13:28.844 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 14:13:28.844 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/141328.209:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/141328.210:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 14:13:28.860 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:13:30.375 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:13:31.375 DEBUG: OnContextCreated()
+- 14:13:31.641 INFO: GET 200 /SomeWork/
+- 14:13:31.657 INFO: GET 200 /SomeWork/js/popper.min.js
+- 14:13:31.657 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 14:13:31.657 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 14:13:31.657 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 14:13:31.657 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 14:13:31.657 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 14:13:31.657 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 14:13:31.657 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 14:13:31.938 INFO: GET 200 /SomeWork/./100px180/
+- 14:13:31.781 DEBUG: OnContextCreated()
+- 14:13:31.250 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 14:13:31.328 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 14:13:31.328 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/141331.696:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/141331.698:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 14:13:31.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:14:08.735 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:14:08.750 DEBUG: OnContextCreated()
+- 14:14:08.016 INFO: GET 200 /SomeWork/
+- 14:14:08.032 INFO: GET 200 /SomeWork/js/popper.min.js
+- 14:14:08.032 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 14:14:08.032 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 14:14:08.032 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 14:14:08.032 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 14:14:08.032 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 14:14:08.047 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 14:14:08.047 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 14:14:08.328 INFO: GET 200 /SomeWork/./100px180/
+- 14:14:08.172 DEBUG: OnContextCreated()
+- 14:14:09.641 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 14:14:09.719 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 14:14:09.719 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/141409.084:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/141409.085:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 14:14:09.735 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:14:27.313 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:14:27.328 DEBUG: OnContextCreated()
+- 14:14:27.594 INFO: GET 200 /SomeWork/
+- 14:14:27.594 INFO: GET 200 /SomeWork/js/popper.min.js
+- 14:14:27.594 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 14:14:27.594 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 14:14:27.594 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 14:14:27.594 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 14:14:27.594 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 14:14:27.610 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 14:14:27.610 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 14:14:28.891 INFO: GET 200 /SomeWork/./100px180/
+- 14:14:28.734 DEBUG: OnContextCreated()
+- 14:14:28.203 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 14:14:28.282 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 14:14:28.282 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/141428.654:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/141428.657:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 14:14:28.297 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:15:14.188 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:15:14.187 DEBUG: OnContextCreated()
+- 14:15:14.453 INFO: GET 200 /SomeWork/
+- 14:15:14.469 INFO: GET 200 /SomeWork/js/popper.min.js
+- 14:15:14.469 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 14:15:14.469 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 14:15:14.469 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 14:15:14.469 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 14:15:14.469 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 14:15:14.469 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 14:15:14.469 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 14:15:15.750 INFO: GET 200 /SomeWork/./100px180/
+- 14:15:15.562 DEBUG: OnContextCreated()
+- 14:15:15.032 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 14:15:15.110 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 14:15:15.110 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/141515.473:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/141515.475:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 14:15:15.110 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:16:15.422 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:62407/SomeWork/#
+- 14:16:16.422 DEBUG: OnContextCreated()
+- 14:16:16.688 INFO: GET 200 /SomeWork/
+- 14:16:16.703 INFO: GET 200 /SomeWork/js/popper.min.js
+- 14:16:16.703 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 14:16:16.703 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 14:16:16.703 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 14:16:16.703 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 14:16:16.703 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 14:16:16.703 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 14:16:16.703 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 14:16:16.985 INFO: GET 200 /SomeWork/./100px180/
+- 14:16:16.781 DEBUG: OnContextCreated()
+- 14:16:16.250 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 14:16:16.344 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 14:16:16.344 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/141616.701:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/141616.704:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:62407/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 14:16:16.344 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:62407/SomeWork/#
+- 14:21:43.719 DEBUG: OnBeforeClose() hwnd=132520
+- 14:21:43.719 DEBUG: RemoveBrowserWindow(): hwnd = 132520
+- 14:21:43.719 DEBUG: GetBrowserWindow(): not found, hwnd = 132520
+- 14:21:43.719 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
