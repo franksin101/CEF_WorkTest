@@ -23,6 +23,12 @@
 
         <!-- Inner HTML javascript -->
         <script type="text/javascript">
+            var PeopleMode = Backbone.Model.extend({
+                initialize : function () {
+
+                },                    
+                
+            });
         </script>
 
         <!-- HTML style shett -->
@@ -30,8 +36,9 @@
         </style>
     </head>
 
-    <body>
+    <body lang="TW">
 
+        <!-- 主要外框 -->
         <div class="container-fluid">
 
             <h2>勤務表自動化設計</h2>
@@ -39,16 +46,16 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs">
                 <li id="indexed_main_page" class="nav-item">
-                <a class="nav-link active" data-toggle="tab" href="#indexed_main_page_content">Main Page</a>
+                    <a class="nav-link active" data-toggle="tab" href="#indexed_main_page_content">Main Page</a>
                 </li>
                 <li id="indexed_sqlite_admin" class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#indexed_sqlite_admin_content">SQlite Administrator</a>
+                    <a class="nav-link" data-toggle="tab" href="#indexed_sqlite_admin_content">SQlite Administrator</a>
                 </li>
                 <li id="indexed_data_presentation" class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#indexed_data_presentation_content">Data Presetation</a>
+                    <a class="nav-link" data-toggle="tab" href="#indexed_data_presentation_content">Data Presetation</a>
                 </li>
                 <li id="indexed_other" class="nav-item">
-                <a class="nav-link" data-toggle="tab" href="#other">Other</a>
+                    <a class="nav-link" data-toggle="tab" href="#other">Other</a>
                 </li>
             </ul>
 
@@ -57,7 +64,7 @@
                 <div id="indexed_main_page_content" class="container-fluid tab-pane active"><br>
                     <h3>Main Page(標題)</h3>
                     <p>這個頁面主要用來資料編輯和顯示(說明)</p>
-                    <div id="indexed_main_page_content_inner_1" class="container-fluid">
+                    <div id="indexed_main_page_content_div" class="container-fluid">
                         <div class="row">
                             <div class="col-2">
                                 <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
