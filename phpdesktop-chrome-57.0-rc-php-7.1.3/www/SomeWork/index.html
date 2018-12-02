@@ -23,14 +23,29 @@
 
         <!-- Inner HTML javascript -->
         <script type="text/javascript">
-            var PeopleMode = Backbone.Model.extend({
+            //Backbone.emulateHTTP = true;
+
+            /*var PeopleModel = Backbone.Model.extend({
                 initialize : function () {
-
+                    title: "One Thousand and One Nights"
                 },
-                sync : function (){
+                url : function (){
+                    return "People.php"
+                }                   
+            });*/
 
-                },                   
+            var Task = Backbone.Model.extend({ 
+                url: function (){
+                    return this.id ? "tasks.php?id=" + this.id : "tasks.php";
+                },
+                defaults: { done: 0 }
             });
+
+            var t = new Task();
+
+            t.sync("create", this, {suceess:function(resp){
+                alert(resp);
+            }});
         </script>
 
         <!-- HTML style shett -->

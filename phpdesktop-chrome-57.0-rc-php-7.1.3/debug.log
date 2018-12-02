@@ -3133,3 +3133,221 @@
 - 14:45:31.422 DEBUG: Calling CefQuitMessageLoop()
 - 14:45:31.453 INFO: Ended application
 - 14:45:31.453 INFO: --------------------------------------------------------
+- 20:29:48.062 INFO: --------------------------------------------------------
+- 20:29:48.062 INFO: Started application
+- 20:29:48.062 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 20:29:48.062 INFO: Log level = DEBUG4
+- 20:29:48.062 INFO: Starting Mongoose 3.9c web server
+- 20:29:48.062 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 20:29:48.062 INFO: Index files: index.html,index.php
+- 20:29:48.062 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 20:29:48.062 INFO: CGI pattern: **.php$
+- 20:29:48.062 INFO: Hide files patterns: 
+- 20:29:48.062 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 20:29:48.078 INFO: Web server url: http://127.0.0.1:61022/
+- 20:29:48.078 INFO: remote_debugging_port = 49924
+- 20:29:48.078 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=49924
+- 20:29:49.125 DEBUG: App::OnContextInitialized()
+- 20:29:49.125 DEBUG: Window max width/height = 1840/992
+- 20:29:49.125 DEBUG: GetBrowserWindow(): not found, hwnd = 134756
+- 20:29:49.125 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 20:29:49.125 DEBUG: BrowserWindow::CreateBrowserControl()
+- 20:29:49.125 DEBUG: StoreBrowserWindow(): hwnd = 134756
+- 20:29:49.172 DEBUG: ClientHandler::OnAfterCreated()
+- 20:29:49.172 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 20:29:49.172 DEBUG: OnLoadingStateChange: loading=1, url=
+- 20:29:49.000 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=8BFEC624EB6717089AF1DD90057A226C --mojo-platform-channel-handle=1704 /prefetch:2
+- 20:29:49.000 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=57AEA0FB94A4668F0C23151CE98CEA0A --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=57AEA0FB94A4668F0C23151CE98CEA0A --renderer-client-id=3 --mojo-platform-channel-handle=2268 /prefetch:1
+- 20:29:49.031 DEBUG: OnBrowserCreated()
+[1202/202949.173:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 20:29:50.531 INFO: GET 200 /style.css
+- 20:29:50.547 INFO: GET 200 /
+- 20:29:50.328 DEBUG: OnContextCreated()
+- 20:29:50.594 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61022/
+- 20:29:51.953 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61022/
+- 20:29:51.734 DEBUG: OnContextCreated()
+- 20:29:51.953 INFO: GET -1 /SomeWork
+- 20:29:51.953 INFO: GET 200 /SomeWork/
+- 20:29:51.969 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 20:29:51.969 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 20:29:51.969 INFO: GET 200 /SomeWork/js/popper.min.js
+- 20:29:51.969 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 20:29:51.969 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 20:29:51.969 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 20:29:51.969 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 20:29:51.969 INFO: GET 200 /SomeWork/js/backbone-min.js
+[1202/202951.982:INFO:CONSOLE(29)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:61022/SomeWork/ (29)
+- 20:29:52.250 INFO: GET 200 /SomeWork/./100px180/
+- 20:29:52.172 DEBUG: OnContextCreated()
+- 20:29:52.594 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:29:52.672 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 20:29:52.672 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/202952.572:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:61022/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/202952.587:INFO:CONSOLE(21)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:61022/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (21)
+- 20:29:52.719 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61022/SomeWork/
+- 20:29:58.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61022/SomeWork/
+- 20:29:58.266 INFO: GET 200 /SomeWork/
+- 20:29:58.047 DEBUG: OnContextCreated()
+- 20:29:58.281 INFO: GET 200 /SomeWork/js/popper.min.js
+- 20:29:58.281 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 20:29:58.281 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 20:29:58.281 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 20:29:58.281 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 20:29:58.281 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 20:29:58.281 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 20:29:58.281 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+[1202/202958.226:INFO:CONSOLE(29)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:61022/SomeWork/ (29)
+- 20:29:58.578 INFO: GET 200 /SomeWork/./100px180/
+- 20:29:58.422 DEBUG: OnContextCreated()
+- 20:29:58.844 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:29:58.922 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 20:29:58.922 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/202958.804:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:61022/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/202958.805:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:61022/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 20:29:58.937 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61022/SomeWork/
+- 20:30:11.609 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61022/SomeWork/
+- 20:30:11.609 INFO: GET 200 /SomeWork/
+- 20:30:11.390 DEBUG: OnContextCreated()
+- 20:30:11.625 INFO: GET 200 /SomeWork/js/popper.min.js
+- 20:30:11.625 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 20:30:11.625 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 20:30:11.625 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 20:30:11.625 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 20:30:11.625 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 20:30:11.625 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 20:30:11.625 INFO: GET 200 /SomeWork/js/backbone-min.js
+[1202/203011.575:INFO:CONSOLE(29)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:61022/SomeWork/ (29)
+- 20:30:11.906 INFO: GET 200 /SomeWork/./100px180/
+- 20:30:11.765 DEBUG: OnContextCreated()
+- 20:30:12.187 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:30:12.266 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 20:30:12.266 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1202/203012.157:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:61022/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/203012.159:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:61022/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 20:30:12.281 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61022/SomeWork/
+- 20:30:19.031 INFO: GET 200 /SomeWork/
+- 20:30:19.062 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 20:30:19.078 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 20:30:19.078 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 20:30:19.078 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 20:30:19.078 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 20:30:19.078 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 20:30:19.094 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 20:30:19.078 INFO: GET 200 /SomeWork/js/popper.min.js
+- 20:30:20.500 INFO: GET 200 /SomeWork/./100px180/
+- 20:30:20.953 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:30:20.047 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 20:30:20.047 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 20:30:21.375 INFO: GET 200 /favicon.ico
+- 20:30:47.016 INFO: GET 304 /SomeWork/
+- 20:30:48.359 INFO: GET 200 /SomeWork/./100px180/
+- 20:30:48.797 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:30:48.109 INFO: GET 200 /favicon.ico
+- 20:32:58.328 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61022/SomeWork/
+- 20:32:58.328 INFO: GET 200 /SomeWork/
+- 20:32:58.125 DEBUG: OnContextCreated()
+- 20:32:58.344 INFO: GET 200 /SomeWork/js/popper.min.js
+- 20:32:58.344 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 20:32:58.344 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 20:32:58.344 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 20:32:58.359 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 20:32:58.359 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 20:32:58.359 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 20:32:58.359 INFO: GET 200 /SomeWork/js/underscore-min.js
+[1202/203258.355:INFO:CONSOLE(29)] "Uncaught SyntaxError: Unexpected token :", source: http://127.0.0.1:61022/SomeWork/ (29)
+- 20:32:58.641 INFO: GET 200 /SomeWork/./100px180/
+- 20:32:58.547 DEBUG: OnContextCreated()
+- 20:32:58.969 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:32:58.047 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 20:32:58.047 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/203258.924:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:61022/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/203258.925:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:61022/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 20:32:58.047 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61022/SomeWork/
+- 20:33:39.812 INFO: GET 200 /SomeWork/
+- 20:33:40.172 INFO: GET 200 /SomeWork/./100px180/
+- 20:33:40.625 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:33:40.953 INFO: GET 200 /favicon.ico
+- 20:33:43.453 INFO: GET 304 /SomeWork/
+- 20:33:43.781 INFO: GET 200 /SomeWork/./100px180/
+- 20:33:44.141 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:33:44.437 INFO: GET 200 /favicon.ico
+- 20:34:10.469 INFO: GET 304 /SomeWork/
+- 20:34:10.812 INFO: GET 200 /SomeWork/./100px180/
+- 20:34:11.203 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:34:11.516 INFO: GET 200 /favicon.ico
+- 20:34:47.328 INFO: GET 304 /SomeWork/
+- 20:34:47.656 INFO: GET 200 /SomeWork/./100px180/
+- 20:34:47.109 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:34:48.437 INFO: GET 200 /favicon.ico
+- 20:35:46.578 INFO: GET 200 /SomeWork/
+- 20:35:46.922 INFO: GET 200 /SomeWork/./100px180/
+- 20:35:47.391 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:35:47.703 INFO: GET 200 /favicon.ico
+- 20:35:50.141 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js.map
+- 20:35:50.172 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css.map
+- 20:35:50.484 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 20:35:50.516 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 20:41:30.266 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:61022/SomeWork/
+- 20:41:30.266 INFO: GET 200 /SomeWork/
+- 20:41:30.047 DEBUG: OnContextCreated()
+- 20:41:30.281 INFO: GET 200 /SomeWork/js/popper.min.js
+- 20:41:30.281 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 20:41:30.281 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 20:41:30.281 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 20:41:30.281 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 20:41:30.281 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 20:41:30.281 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 20:41:30.281 INFO: GET 200 /SomeWork/js/backbone-min.js
+[1202/204130.279:INFO:CONSOLE(44)] "Uncaught TypeError: Task.save is not a function", source: http://127.0.0.1:61022/SomeWork/ (44)
+- 20:41:30.562 INFO: GET 200 /SomeWork/./100px180/
+- 20:41:30.468 DEBUG: OnContextCreated()
+- 20:41:30.891 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:41:30.969 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 20:41:30.969 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1202/204130.849:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:61022/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1202/204130.851:INFO:CONSOLE(14)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:61022/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (14)
+- 20:41:30.984 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:61022/SomeWork/
+- 20:41:35.672 INFO: GET 200 /SomeWork/
+- 20:41:35.062 INFO: GET 200 /SomeWork/./100px180/
+- 20:41:36.312 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 20:41:36.469 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 20:41:36.641 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:41:36.031 INFO: GET 200 /favicon.ico
+- 20:43:53.687 INFO: GET 200 /favicon.ico
+- 20:44:01.437 INFO: GET 200 /favicon.ico
+- 20:44:54.359 INFO: GET 304 /SomeWork/
+- 20:44:54.734 INFO: GET 200 /SomeWork/./100px180/
+- 20:44:55.219 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 20:44:55.219 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 20:44:55.422 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:44:55.812 INFO: GET 200 /favicon.ico
+- 20:48:32.703 INFO: GET 200 /SomeWork/
+- 20:48:32.062 INFO: GET 200 /SomeWork/./100px180/
+- 20:48:33.594 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 20:48:33.656 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 20:48:33.797 INFO: POST 200 /SomeWork/tasks.php
+- 20:48:33.797 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:48:34.203 INFO: GET 200 /favicon.ico
+- 20:49:22.344 INFO: POST 200 /SomeWork/tasks.php
+- 20:51:44.422 INFO: GET 200 /SomeWork/
+- 20:51:44.797 INFO: GET 200 /SomeWork/./100px180/
+- 20:51:45.328 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 20:51:45.328 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 20:51:45.469 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:51:45.844 INFO: GET 200 /favicon.ico
+- 20:52:37.781 INFO: GET 200 /SomeWork/
+- 20:52:38.187 INFO: GET 200 /SomeWork/./100px180/
+- 20:52:38.859 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 20:52:38.859 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:52:38.859 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 20:52:39.266 INFO: GET 200 /favicon.ico
+- 20:53:22.031 INFO: GET 200 /SomeWork/
+- 20:53:23.437 INFO: GET 200 /SomeWork/./100px180/
+- 20:53:23.812 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 20:53:23.844 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 20:53:23.062 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 20:53:24.437 INFO: GET 200 /favicon.ico
+- 20:54:27.891 DEBUG: OnBeforeClose() hwnd=134764
+- 20:54:27.891 DEBUG: RemoveBrowserWindow(): hwnd = 134764
+- 20:54:27.891 DEBUG: GetBrowserWindow(): not found, hwnd = 134764
+- 20:54:27.891 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
