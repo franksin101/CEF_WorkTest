@@ -54,7 +54,7 @@
 
             <!-- Tab panes -->
             <div class="tab-content container-fluid">
-                <div id="indexed_main_page_content" class="container tab-pane active"><br>
+                <div id="indexed_main_page_content" class="container-fluid tab-pane active"><br>
                     <h3>Main Page(標題)</h3>
                     <p>這個頁面主要用來資料編輯和顯示(說明)</p>
                     <div id="indexed_main_page_content_inner_1" class="container-fluid">
