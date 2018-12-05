@@ -23,7 +23,7 @@
 
         <!-- Inner HTML javascript -->
         <script type="text/javascript">
-            //Backbone.emulateHTTP = true;
+            Backbone.emulateHTTP = true;
 
             /*var PeopleModel = Backbone.Model.extend({
                 initialize : function () {
@@ -35,8 +35,54 @@
             });*/
 
             var Task = Backbone.Model.extend({ 
-                url: function (){
-                    return this.id ? "tasks.php?id=" + this.id : "tasks.php";
+                sync : function(method, model, options){
+
+                    let _header = {
+                        headers: {
+                            'Accept': 'application/json',
+                            'Content-Type': 'application/json'
+                        },
+                        method: "POST",
+                        body: JSON.stringify(model.toJSON())
+                    };
+
+                    switch(method){
+                        case "create":
+                            alert("create");
+                            break;
+                        case "read":
+                            alert("create");
+                            break;
+                        case "write":
+                            alert("create");
+                            break;
+                        default:
+                            break;
+                    }
+
+                    let _url = null;
+
+                    if(typeof url === 'undefined')
+                        _url = "no_url.php";
+                    else
+                        _url = url;
+
+                    fetch(_url)
+                    .then(function(response){
+                        alert(response);
+                        console.log(response);
+                    })
+                    .then(function(jsonData){
+                        let _update_f  = null;
+                        if (typeof options._update === 'undefined'){
+                            console.log("you don't set model sync.options._update function");
+                        } else {
+                            options._update(jsonData);
+                        }
+                    })
+                    .catch(function(error){
+
+                    });
                 },
                 defaults: { done: 0 }
             });
@@ -44,6 +90,8 @@
             var t = new Task();
 
             t.sync("create", this, {suceess:function(resp){
+                alert(resp);
+            }, error:function(resp){
                 alert(resp);
             }});
         </script>

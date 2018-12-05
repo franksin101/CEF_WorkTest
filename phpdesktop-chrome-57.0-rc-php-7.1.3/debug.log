@@ -3351,3 +3351,174 @@
 - 20:54:27.891 DEBUG: RemoveBrowserWindow(): hwnd = 134764
 - 20:54:27.891 DEBUG: GetBrowserWindow(): not found, hwnd = 134764
 - 20:54:27.891 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:06:55.109 INFO: --------------------------------------------------------
+- 15:06:55.109 INFO: Started application
+- 15:06:55.109 INFO: Logging to: F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 15:06:55.109 INFO: Log level = DEBUG4
+- 15:06:55.109 INFO: Starting Mongoose 3.9c web server
+- 15:06:55.109 INFO: WWW directory: F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 15:06:55.109 INFO: Index files: index.html,index.php
+- 15:06:55.109 INFO: CGI interpreter: F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 15:06:55.109 INFO: CGI pattern: **.php$
+- 15:06:55.109 INFO: Hide files patterns: 
+- 15:06:55.109 DEBUG: The temp directory returned by OS contains unicode characters: C:\Users\F12125~1\AppData\Local\Temp\
+- 15:06:55.109 INFO: CGI environment variables set: TMP=C:\Windows\Temp,TEMP=C:\Windows\Temp,TMPDIR=C:\Windows\Temp,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 15:06:55.172 INFO: Web server url: http://127.0.0.1:50296/
+- 15:06:55.172 INFO: remote_debugging_port = 52445
+- 15:06:55.234 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=52445
+- 15:06:56.015 DEBUG: Command line string for the gpu-process process: "F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0102 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=9.17.10.4229 --gpu-driver-date=5-26-2015 --lang=en-US --log-file="F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=3FFECC9B8227D8E57239001738F6D427 --mojo-platform-channel-handle=1460 /prefetch:2
+- 15:06:56.732 DEBUG: App::OnContextInitialized()
+- 15:06:56.732 DEBUG: Window max width/height = 1360/812
+- 15:06:56.732 DEBUG: GetBrowserWindow(): not found, hwnd = 262992
+- 15:06:56.732 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 15:06:56.732 DEBUG: BrowserWindow::CreateBrowserControl()
+- 15:06:56.732 DEBUG: StoreBrowserWindow(): hwnd = 262992
+- 15:06:57.184 DEBUG: ClientHandler::OnAfterCreated()
+- 15:06:57.184 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 15:06:57.309 DEBUG: OnLoadingStateChange: loading=1, url=
+- 15:06:57.000 DEBUG: Command line string for the renderer process: "F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=974B0BD0EEB3D19B9B3DFDD05D281915 --lang=en-US --lang=en-US --log-file="F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=4 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=974B0BD0EEB3D19B9B3DFDD05D281915 --renderer-client-id=3 --mojo-platform-channel-handle=1644 /prefetch:1
+[1204/150657.747:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 15:06:59.732 DEBUG: OnBrowserCreated()
+[1204/150659.617:ERROR:backend_impl.cc(1033)] Critical error found -8
+[1204/150701.625:WARNING:storage_block-inl.h(131)] Failed data load.
+[1204/150701.625:WARNING:storage_block-inl.h(131)] Failed data load.
+[1204/150701.625:WARNING:storage_block-inl.h(131)] Failed data load.
+- 15:07:01.521 INFO: GET 200 /
+[1204/150701.641:WARNING:storage_block-inl.h(131)] Failed data load.
+[1204/150701.641:ERROR:entry_impl.cc(964)] Failed to save user data
+[1204/150701.641:ERROR:entry_impl.cc(964)] Failed to save user data
+[1204/150701.719:ERROR:cache_util_win.cc(20)] Unable to move the cache: 5
+[1204/150701.719:ERROR:cache_util.cc(134)] Unable to move cache folder F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\webcache\Cache to F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\webcache\old_Cache_000
+[1204/150701.735:ERROR:backend_impl.cc(2015)] Corrupt Index file
+- 15:07:01.630 INFO: GET 200 /style.css
+- 15:07:01.228 DEBUG: OnContextCreated()
+- 15:07:01.895 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50296/
+- 15:07:03.299 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:50296/
+- 15:07:03.315 INFO: GET -1 /SomeWork
+- 15:07:03.315 INFO: GET 200 /SomeWork/
+- 15:07:03.803 DEBUG: OnContextCreated()
+- 15:07:03.393 INFO: GET 200 /SomeWork/js/popper.min.js
+- 15:07:03.409 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 15:07:03.409 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 15:07:03.424 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 15:07:03.471 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 15:07:03.471 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 15:07:03.471 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 15:07:03.471 INFO: GET 200 /SomeWork/js/backbone-min.js
+[1204/150703.877:INFO:CONSOLE(1)] "Uncaught Error: A "url" property or function must be specified", source: http://127.0.0.1:50296/SomeWork/js/backbone-min.js (1)
+- 15:07:04.955 INFO: GET 200 /SomeWork/./100px180/
+- 15:07:04.802 DEBUG: OnContextCreated()
+- 15:07:04.579 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 15:07:04.797 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 15:07:04.797 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+[1204/150704.927:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:50296/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1204/150704.948:INFO:CONSOLE(21)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:50296/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (21)
+- 15:07:04.875 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:50296/SomeWork/
+- 15:07:15.311 INFO: GET 200 /SomeWork/
+- 15:07:16.935 INFO: GET 200 /SomeWork/js/popper.min.js
+- 15:07:16.029 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 15:07:16.029 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 15:07:16.045 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 15:07:16.045 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 15:07:16.045 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 15:07:16.045 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 15:07:16.045 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 15:07:16.466 INFO: GET 200 /SomeWork/./100px180/
+- 15:07:16.544 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 15:07:17.012 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 15:07:17.012 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 15:07:17.433 INFO: GET 200 /favicon.ico
+- 15:07:32.035 INFO: GET 200 /SomeWork/
+- 15:07:32.378 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 15:07:32.378 INFO: GET 200 /SomeWork/js/popper.min.js
+- 15:07:32.394 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 15:07:32.394 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 15:07:32.409 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 15:07:32.409 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 15:07:32.409 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 15:07:32.409 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 15:07:32.784 INFO: GET 200 /SomeWork/./100px180/
+- 15:07:33.940 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 15:07:33.579 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 15:07:33.579 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 15:07:34.954 INFO: GET 200 /favicon.ico
+- 15:07:38.727 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js.map
+- 15:07:38.836 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css.map
+- 15:07:39.148 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 15:07:39.148 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 15:08:45.761 INFO: GET 304 /SomeWork/
+- 15:08:46.276 INFO: GET 200 /SomeWork/./100px180/
+- 15:08:46.416 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 15:08:46.416 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 15:08:46.416 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 15:08:46.775 INFO: GET 200 /favicon.ico
+- 15:10:32.731 INFO: GET 200 /SomeWork/
+- 15:10:33.292 INFO: GET 200 /SomeWork/./100px180/
+- 15:10:33.589 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 15:10:33.589 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 15:10:33.589 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 15:10:34.963 INFO: GET 200 /favicon.ico
+- 15:11:49.187 INFO: GET 200 /SomeWork/
+- 15:11:49.795 INFO: GET 200 /SomeWork/./100px180/
+- 15:11:50.216 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 15:11:51.074 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 15:11:51.074 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 15:11:51.449 INFO: GET 200 /favicon.ico
+- 15:18:20.141 INFO: GET 200 /SomeWork/
+- 15:18:20.765 INFO: GET 200 /SomeWork/./100px180/
+- 15:18:20.780 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 15:18:20.780 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 15:18:20.780 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 15:18:21.139 INFO: GET 200 /favicon.ico
+- 15:34:40.701 INFO: POST 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 15:59:36.688 INFO: GET 200 /SomeWork/
+- 15:59:37.062 INFO: GET 200 /SomeWork/./100px180/
+- 15:59:37.452 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 15:59:37.780 INFO: GET 200 /favicon.ico
+- 15:59:39.605 INFO: GET 304 /SomeWork/
+- 15:59:39.980 INFO: GET 200 /SomeWork/./100px180/
+- 15:59:40.260 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 15:59:40.604 INFO: GET 200 /favicon.ico
+- 15:59:44.379 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 15:59:44.379 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 16:00:08.497 INFO: GET 200 /SomeWork/
+- 16:00:08.933 INFO: GET 200 /SomeWork/./100px180/
+- 16:00:09.058 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 16:00:09.058 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 16:00:10.618 INFO: GET 200 /SomeWork/./100px180/
+- 16:00:10.618 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 16:00:10.961 INFO: GET 200 /favicon.ico
+- 16:04:08.894 INFO: GET 200 /SomeWork/
+- 16:04:09.393 INFO: GET 200 /SomeWork/./100px180/
+- 16:04:09.565 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 16:04:09.565 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 16:04:10.657 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 16:04:10.657 INFO: GET 200 /SomeWork/./100px180/
+- 16:04:10.985 INFO: GET 200 /favicon.ico
+- 16:05:22.948 INFO: GET 200 /SomeWork/
+- 16:05:23.322 INFO: GET 200 /SomeWork/./100px180/
+- 16:05:23.494 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 16:05:23.494 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 16:05:24.929 INFO: GET 200 /SomeWork/./100px180/
+- 16:05:24.929 INFO: GET 200 /SomeWork/no_url.php
+- 16:05:24.929 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 16:05:26.473 INFO: GET 200 /favicon.ico
+- 16:06:02.603 INFO: GET 200 /SomeWork/
+- 16:06:03.180 INFO: GET 200 /SomeWork/./100px180/
+- 16:06:03.180 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 16:06:03.180 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 16:06:04.226 INFO: GET 200 /SomeWork/./100px180/
+- 16:06:04.460 INFO: GET 200 /SomeWork/no_url.php
+- 16:06:04.460 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 16:06:06.269 INFO: GET 200 /favicon.ico
+- 18:11:07.031 DEBUG: WM_DESTROY
+- 18:11:07.031 DEBUG: RemoveBrowserWindow(): hwnd = 262992
+- 18:11:07.031 INFO: Stopping Mongoose web server
+- 18:11:07.031 DEBUG: Mongoose webserver stopped immediately
+- 18:11:07.031 DEBUG: OnBeforeClose() hwnd=656344
+- 18:11:07.031 DEBUG: RemoveBrowserWindow(): hwnd = 656344
+- 18:11:07.031 DEBUG: GetBrowserWindow(): not found, hwnd = 656344
+- 18:11:07.031 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 18:11:07.031 DEBUG: Calling CefQuitMessageLoop()
+- 18:11:07.265 INFO: Ended application
+- 18:11:07.265 INFO: --------------------------------------------------------
