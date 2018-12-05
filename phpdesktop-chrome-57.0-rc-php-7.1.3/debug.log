@@ -3522,3 +3522,199 @@
 - 18:11:07.031 DEBUG: Calling CefQuitMessageLoop()
 - 18:11:07.265 INFO: Ended application
 - 18:11:07.265 INFO: --------------------------------------------------------
+- 22:17:53.110 INFO: --------------------------------------------------------
+- 22:17:53.110 INFO: Started application
+- 22:17:53.110 INFO: Logging to: F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 22:17:53.110 INFO: Log level = DEBUG4
+- 22:17:53.110 INFO: Starting Mongoose 3.9c web server
+- 22:17:53.110 INFO: WWW directory: F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 22:17:53.110 INFO: Index files: index.html,index.php
+- 22:17:53.110 INFO: CGI interpreter: F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 22:17:53.110 INFO: CGI pattern: **.php$
+- 22:17:53.110 INFO: Hide files patterns: 
+- 22:17:53.110 INFO: CGI environment variables set: TMP=C:\Users\SinFrank\AppData\Local\Temp\,TEMP=C:\Users\SinFrank\AppData\Local\Temp\,TMPDIR=C:\Users\SinFrank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 22:17:53.125 INFO: Web server url: http://127.0.0.1:60511/
+- 22:17:53.125 INFO: remote_debugging_port = 49340
+- 22:17:53.156 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=49340
+- 22:17:54.000 DEBUG: Command line string for the gpu-process process: "F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,61,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x8086 --gpu-device-id=0x0416 --gpu-driver-vendor="Intel Corporation" --gpu-driver-version=20.19.15.4549 --gpu-driver-date=11-10-2016 --gpu-secondary-vendor-ids=0x10de --gpu-secondary-device-ids=0x139a --lang=en-US --log-file="F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=56F8C12C46FEF62DA5C8603F7335F34E --mojo-platform-channel-handle=1880 /prefetch:2
+- 22:17:54.891 DEBUG: App::OnContextInitialized()
+- 22:17:54.891 INFO: DPI, window enlarged by 25% new width/height = 1000/750
+- 22:17:54.891 DEBUG: Window max width/height = 1842/984
+- 22:17:54.891 DEBUG: GetBrowserWindow(): not found, hwnd = 2033012
+- 22:17:54.891 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 22:17:54.891 DEBUG: BrowserWindow::CreateBrowserControl()
+- 22:17:54.891 DEBUG: StoreBrowserWindow(): hwnd = 2033012
+- 22:17:54.125 DEBUG: ClientHandler::OnAfterCreated()
+- 22:17:54.125 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 22:17:54.156 DEBUG: OnLoadingStateChange: loading=1, url=
+[1205/221754.521:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 22:17:54.000 DEBUG: Command line string for the renderer process: "F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=33B2A01A48E3D1515A118A67730331EE --lang=en-US --lang=en-US --log-file="F:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1.25 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=33B2A01A48E3D1515A118A67730331EE --renderer-client-id=3 --mojo-platform-channel-handle=2312 /prefetch:1
+- 22:17:55.531 DEBUG: OnBrowserCreated()
+[1205/221755.229:ERROR:backend_impl.cc(2015)] Corrupt Index file
+- 22:17:59.735 INFO: GET 200 /
+- 22:17:59.766 INFO: GET 200 /style.css
+- 22:17:59.562 DEBUG: OnContextCreated()
+- 22:17:59.922 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60511/
+- 22:18:00.360 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:60511/
+- 22:18:00.375 INFO: GET -1 /SomeWork
+- 22:18:00.375 INFO: GET 200 /SomeWork/
+- 22:18:00.125 DEBUG: OnContextCreated()
+- 22:18:00.406 INFO: GET 200 /SomeWork/js/popper.min.js
+- 22:18:00.406 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 22:18:00.406 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 22:18:00.422 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 22:18:00.422 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 22:18:00.438 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 22:18:00.438 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 22:18:00.438 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+[1205/221801.098:INFO:CONSOLE(48)] "Uncaught TypeError: model.toJSON is not a function", source: http://127.0.0.1:60511/SomeWork/ (48)
+- 22:18:01.922 INFO: GET 200 /SomeWork/./100px180/
+- 22:18:01.859 DEBUG: OnContextCreated()
+- 22:18:01.328 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:18:01.422 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 22:18:01.422 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1205/221801.743:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:60511/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1205/221801.791:INFO:CONSOLE(21)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:60511/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (21)
+- 22:18:01.485 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:60511/SomeWork/
+- 22:18:09.360 INFO: GET 200 /SomeWork/
+- 22:18:09.453 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 22:18:09.485 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 22:18:09.485 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 22:18:09.485 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 22:18:09.500 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 22:18:09.500 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 22:18:09.500 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 22:18:09.485 INFO: GET 200 /SomeWork/js/popper.min.js
+- 22:18:10.891 INFO: GET 200 /SomeWork/./100px180/
+- 22:18:10.313 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:18:10.688 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 22:18:10.688 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 22:18:11.219 INFO: GET 200 /favicon.ico
+- 22:22:18.156 INFO: GET 200 /SomeWork/
+- 22:22:18.563 INFO: GET 200 /SomeWork/./100px180/
+- 22:22:19.844 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:22:19.328 INFO: GET 200 /favicon.ico
+- 22:22:22.375 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js.map
+- 22:22:22.438 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css.map
+- 22:22:23.719 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:22:23.750 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:24:25.328 INFO: GET 200 /SomeWork/
+- 22:24:26.031 INFO: GET 200 /SomeWork/./100px180/
+- 22:24:26.328 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:24:26.406 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:24:26.469 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:24:27.328 INFO: GET 200 /favicon.ico
+- 22:26:03.188 INFO: GET 200 /SomeWork/
+- 22:26:03.625 INFO: GET 200 /SomeWork/./100px180/
+- 22:26:04.156 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:26:04.141 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:26:04.141 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:26:05.000 INFO: GET 200 /favicon.ico
+- 22:28:18.766 INFO: GET 200 /SomeWork/
+- 22:28:18.203 INFO: GET 200 /SomeWork/./100px180/
+- 22:28:19.735 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:28:19.735 INFO: GET 200 /SomeWork/no_url.php
+- 22:28:19.735 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:28:19.735 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:28:22.703 INFO: GET 200 /favicon.ico
+- 22:29:18.656 INFO: GET 200 /SomeWork/
+- 22:29:19.063 INFO: GET 200 /SomeWork/./100px180/
+- 22:29:19.625 INFO: GET 200 /SomeWork/no_url.php
+- 22:29:19.656 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:29:19.672 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:29:19.672 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:29:22.360 INFO: GET 200 /favicon.ico
+- 22:31:27.266 INFO: GET 200 /SomeWork/
+- 22:31:27.688 INFO: GET 200 /SomeWork/./100px180/
+- 22:31:28.172 INFO: GET 200 /SomeWork/no_url.php
+- 22:31:28.250 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:31:28.250 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:31:28.250 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:31:30.438 INFO: GET 200 /favicon.ico
+- 22:32:40.297 INFO: GET 200 /SomeWork/
+- 22:32:41.719 INFO: GET 200 /SomeWork/./100px180/
+- 22:32:41.266 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:32:41.266 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:32:41.266 INFO: GET 200 /SomeWork/tasks.php
+- 22:32:41.266 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:32:44.922 INFO: GET 200 /favicon.ico
+- 22:37:59.141 INFO: GET 200 /SomeWork/
+- 22:37:59.547 INFO: GET 200 /SomeWork/./100px180/
+- 22:38:00.125 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:38:00.125 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:38:00.125 INFO: GET 200 /SomeWork/tasks.php
+- 22:38:00.125 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:38:03.688 INFO: GET 200 /favicon.ico
+- 22:39:03.094 INFO: GET 200 /SomeWork/
+- 22:39:03.500 INFO: GET 200 /SomeWork/./100px180/
+- 22:39:04.000 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:39:04.094 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:39:04.094 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:39:04.094 INFO: POST 200 /SomeWork/tasks.php
+- 22:39:06.203 INFO: GET 200 /favicon.ico
+- 22:41:04.547 INFO: GET 200 /SomeWork/
+- 22:41:05.985 INFO: GET 200 /SomeWork/./100px180/
+- 22:41:05.516 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:41:05.516 INFO: POST 200 /SomeWork/tasks.php
+- 22:41:05.563 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:41:05.563 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:41:08.906 INFO: GET 200 /favicon.ico
+- 22:43:04.563 INFO: GET 200 /SomeWork/
+- 22:43:05.969 INFO: GET 200 /SomeWork/./100px180/
+- 22:43:05.438 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:43:05.500 INFO: POST 200 /SomeWork/tasks.php
+- 22:43:05.500 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:43:05.516 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:43:06.453 INFO: GET 200 /favicon.ico
+- 22:45:46.078 INFO: GET 200 /SomeWork/
+- 22:45:46.156 INFO: GET 200 /SomeWork/js/backbone.custom.js
+- 22:45:46.516 INFO: GET 200 /SomeWork/./100px180/
+- 22:45:47.000 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:45:47.031 INFO: POST 200 /SomeWork/tasks.php
+- 22:45:47.031 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:45:47.031 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:45:48.906 INFO: GET 200 /favicon.ico
+- 22:46:17.047 INFO: GET 304 /SomeWork/
+- 22:46:17.125 INFO: GET 200 /SomeWork/js/backbone.custom.js
+- 22:46:17.469 INFO: GET 200 /SomeWork/./100px180/
+- 22:46:18.969 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:46:18.000 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:46:18.016 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:46:18.047 INFO: POST 200 /SomeWork/tasks.php
+- 22:46:19.828 INFO: GET 200 /favicon.ico
+- 22:48:31.656 INFO: GET 304 /SomeWork/
+- 22:48:32.719 INFO: GET 200 /SomeWork/js/backbone.custom.js
+- 22:48:32.078 INFO: GET 200 /SomeWork/./100px180/
+- 22:48:32.563 INFO: POST 200 /SomeWork/tasks.php
+- 22:48:32.547 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:48:32.563 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:48:32.594 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:48:33.531 INFO: GET 200 /favicon.ico
+- 22:50:18.031 INFO: GET 304 /SomeWork/
+- 22:50:18.110 INFO: GET 200 /SomeWork/js/backbone.custom.js
+- 22:50:18.485 INFO: GET 200 /SomeWork/./100px180/
+- 22:50:19.891 INFO: POST 200 /SomeWork/tasks.php
+- 22:50:19.906 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:50:19.953 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:50:19.985 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:50:20.906 INFO: GET 200 /favicon.ico
+- 22:52:15.110 INFO: GET 304 /SomeWork/
+- 22:52:15.203 INFO: GET 200 /SomeWork/js/backbone.custom.js
+- 22:52:15.563 INFO: GET 200 /SomeWork/./100px180/
+- 22:52:16.047 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:52:16.063 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:52:16.063 INFO: POST 200 /SomeWork/tasks.php
+- 22:52:16.110 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:52:17.828 INFO: GET 200 /favicon.ico
+- 22:53:03.047 INFO: GET 304 /SomeWork/
+- 22:53:03.110 INFO: GET 200 /SomeWork/js/backbone.custom.js
+- 22:53:03.469 INFO: GET 200 /SomeWork/./100px180/
+- 22:53:04.016 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 22:53:04.031 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 22:53:04.078 INFO: POST 200 /SomeWork/tasks.php
+- 22:53:04.078 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 22:53:05.813 INFO: GET 200 /favicon.ico
+- 23:04:39.219 DEBUG: OnBeforeClose() hwnd=6227884
+- 23:04:39.219 DEBUG: RemoveBrowserWindow(): hwnd = 6227884
+- 23:04:39.219 DEBUG: GetBrowserWindow(): not found, hwnd = 6227884
+- 23:04:39.219 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
