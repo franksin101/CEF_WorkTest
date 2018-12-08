@@ -3718,3 +3718,95 @@
 - 23:04:39.219 DEBUG: RemoveBrowserWindow(): hwnd = 6227884
 - 23:04:39.219 DEBUG: GetBrowserWindow(): not found, hwnd = 6227884
 - 23:04:39.219 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 12:00:32.110 INFO: --------------------------------------------------------
+- 12:00:32.110 INFO: Started application
+- 12:00:32.110 INFO: Logging to: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log
+- 12:00:32.110 INFO: Log level = DEBUG4
+- 12:00:32.110 INFO: Starting Mongoose 3.9c web server
+- 12:00:32.110 INFO: WWW directory: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\www
+- 12:00:32.110 INFO: Index files: index.html,index.php
+- 12:00:32.110 INFO: CGI interpreter: E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\php\php-cgi.exe
+- 12:00:32.110 INFO: CGI pattern: **.php$
+- 12:00:32.110 INFO: Hide files patterns: 
+- 12:00:32.125 INFO: CGI environment variables set: TMP=E:\TEMP\frank\AppData\Local\Temp\,TEMP=E:\TEMP\frank\AppData\Local\Temp\,TMPDIR=E:\TEMP\frank\AppData\Local\Temp\,SERVER_NAME=127.0.0.1,PHPDESKTOP_VERSION=57.0
+- 12:00:32.125 INFO: Web server url: http://127.0.0.1:57415/
+- 12:00:32.125 INFO: remote_debugging_port = 60420
+- 12:00:32.219 DEBUG: Command line string for the browser process: phpdesktop-chrome.exe --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --remote-debugging-port=60420
+- 12:00:34.016 DEBUG: Command line string for the gpu-process process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=gpu-process --no-sandbox --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --disable-direct-composition --supports-dual-gpus=false --gpu-driver-bug-workarounds=7,10,18,19,20,23,41,74 --disable-gl-extensions="GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent" --gpu-vendor-id=0x10de --gpu-device-id=0x1c81 --gpu-driver-vendor=NVIDIA --gpu-driver-version=23.21.13.8831 --gpu-driver-date=11-14-2017 --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --service-request-channel-token=32B1A032368D0A38ECE9096E42645B32 --mojo-platform-channel-handle=1852 /prefetch:2
+- 12:00:35.422 DEBUG: App::OnContextInitialized()
+- 12:00:35.422 DEBUG: Window max width/height = 1840/992
+- 12:00:35.422 DEBUG: GetBrowserWindow(): not found, hwnd = 67738
+- 12:00:35.422 DEBUG: WindowProc(): event WM_GETMINMAXINFO: could not fetch BrowserWindow
+- 12:00:35.422 DEBUG: BrowserWindow::CreateBrowserControl()
+- 12:00:35.422 DEBUG: StoreBrowserWindow(): hwnd = 67738
+[1208/120035.813:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+- 12:00:36.922 DEBUG: ClientHandler::OnAfterCreated()
+- 12:00:36.922 DEBUG: SetCefBrowser() called in ClientHandler::OnAfterCreated()
+- 12:00:36.016 DEBUG: Command line string for the renderer process: "E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\phpdesktop-chrome.exe" --type=renderer --no-sandbox --primordial-pipe-token=0AC8CE087AB002D232A830BBF26212BA --lang=en-US --lang=en-US --log-file="E:\Project\CEF_WorkTest\phpdesktop-chrome-57.0-rc-php-7.1.3\debug.log" --enable-pinch --device-scale-factor=1 --num-raster-threads=2 --enable-main-frame-before-activation --content-image-texture-target=0,0,3553;0,1,3553;0,2,3553;0,3,3553;0,4,3553;0,5,3553;0,6,3553;0,7,3553;0,8,3553;0,9,3553;0,10,3553;0,11,3553;0,12,3553;0,13,3553;0,14,3553;0,15,3553;1,0,3553;1,1,3553;1,2,3553;1,3,3553;1,4,3553;1,5,3553;1,6,3553;1,7,3553;1,8,3553;1,9,3553;1,10,3553;1,11,3553;1,12,3553;1,13,3553;1,14,3553;1,15,3553;2,0,3553;2,1,3553;2,2,3553;2,3,3553;2,4,3553;2,5,3553;2,6,3553;2,7,3553;2,8,3553;2,9,3553;2,10,3553;2,11,3553;2,12,3553;2,13,3553;2,14,3553;2,15,3553;3,0,3553;3,1,3553;3,2,3553;3,3,3553;3,4,3553;3,5,3553;3,6,3553;3,7,3553;3,8,3553;3,9,3553;3,10,3553;3,11,3553;3,12,3553;3,13,3553;3,14,3553;3,15,3553 --service-request-channel-token=0AC8CE087AB002D232A830BBF26212BA --renderer-client-id=3 --mojo-platform-channel-handle=2172 /prefetch:1
+- 12:00:36.063 DEBUG: OnLoadingStateChange: loading=1, url=
+- 12:00:37.516 DEBUG: OnBrowserCreated()
+- 12:00:39.344 INFO: GET 200 /
+- 12:00:39.485 INFO: GET 200 /style.css
+- 12:00:39.609 DEBUG: OnContextCreated()
+- 12:00:40.828 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57415/
+- 12:00:50.797 DEBUG: OnLoadingStateChange: loading=1, url=http://127.0.0.1:57415/
+- 12:00:50.813 INFO: GET -1 /SomeWork
+- 12:00:50.813 INFO: GET 200 /SomeWork/
+- 12:00:50.781 DEBUG: OnContextCreated()
+- 12:00:50.875 INFO: GET 200 /SomeWork/js/popper.min.js
+- 12:00:50.875 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 12:00:50.922 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 12:00:50.922 INFO: GET 200 /SomeWork/js/backbone.custom.js
+- 12:00:50.922 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 12:00:50.938 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 12:00:50.953 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 12:00:50.969 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 12:00:50.985 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 12:00:50.235 INFO: GET 200 /SomeWork/./100px180/
+[1208/120050.494:INFO:CONSOLE(29)] "[object Object]", source: http://127.0.0.1:57415/SomeWork/ (29)
+[1208/120050.540:INFO:CONSOLE(90)] "Uncaught TypeError: t.destory is not a function", source: http://127.0.0.1:57415/SomeWork/ (90)
+[1208/120050.826:INFO:CONSOLE(52)] "[object Response]", source: http://127.0.0.1:57415/SomeWork/ (52)
+- 12:00:50.625 DEBUG: OnContextCreated()
+- 12:00:51.860 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 12:00:51.860 INFO: POST 200 /SomeWork/tasks.php
+[1208/120051.073:INFO:CONSOLE(58)] "[object Object]", source: http://127.0.0.1:57415/SomeWork/ (58)
+[1208/120051.073:INFO:CONSOLE(61)] "you don't set Backbone.sync.options._update.", source: http://127.0.0.1:57415/SomeWork/ (61)
+- 12:00:51.969 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 12:00:51.969 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+[1208/120051.175:INFO:CONSOLE(68)] "Uncaught SyntaxError: Unexpected end of input", source: http://127.0.0.1:57415/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript (68)
+[1208/120051.179:INFO:CONSOLE(21)] "Uncaught ReferenceError: checkVersion is not defined", source: http://127.0.0.1:57415/SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php (21)
+- 12:00:51.969 DEBUG: OnLoadingStateChange: loading=0, url=http://127.0.0.1:57415/SomeWork/
+- 12:00:54.563 INFO: GET 200 /SomeWork/
+- 12:00:54.594 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css
+- 12:00:54.594 INFO: GET 200 /SomeWork/js/jquery-3.3.1.min.js
+- 12:00:54.610 INFO: GET 200 /SomeWork/js/popper.min.js
+- 12:00:54.610 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js
+- 12:00:54.610 INFO: GET 200 /SomeWork/jquery-ui-1.12.1/external/jquery/jquery.js
+- 12:00:54.610 INFO: GET 200 /SomeWork/js/underscore-min.js
+- 12:00:54.625 INFO: GET 200 /SomeWork/js/backbone-min.js
+- 12:00:54.625 INFO: GET 200 /SomeWork/js/backbone.custom.js
+- 12:00:54.610 INFO: GET 200 /SomeWork/js/d3.v5.min.js
+- 12:00:55.953 INFO: GET 200 /SomeWork/./100px180/
+- 12:00:55.485 INFO: POST 200 /SomeWork/tasks.php
+- 12:00:55.485 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php
+- 12:00:55.656 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=javascript
+- 12:00:55.656 INFO: GET 200 /SomeWork/phpLiteAdmin_v1-9-7-1/phpliteadmin.php?resource=css
+- 12:00:56.969 INFO: GET 200 /favicon.ico
+- 12:01:00.000 INFO: GET 200 /SomeWork/bootstrap4/js/bootstrap.min.js.map
+- 12:01:00.016 INFO: GET 200 /SomeWork/bootstrap4/css/bootstrap.min.css.map
+- 12:01:00.250 INFO: GET 200 /SomeWork/js/popper.min.js.map
+- 12:01:00.250 INFO: GET 200 /SomeWork/js/backbone-min.map
+- 12:03:32.360 INFO: POST 200 /SomeWork/no_url.php
+- 12:03:44.344 INFO: POST 200 /SomeWork/no_url.php
+- 15:00:18.219 DEBUG: WM_DESTROY
+- 15:00:18.219 DEBUG: RemoveBrowserWindow(): hwnd = 67738
+- 15:00:18.235 INFO: Stopping Mongoose web server
+- 15:00:18.235 DEBUG: Mongoose webserver stopped immediately
+- 15:00:18.235 DEBUG: OnBeforeClose() hwnd=67746
+- 15:00:18.235 DEBUG: RemoveBrowserWindow(): hwnd = 67746
+- 15:00:18.235 DEBUG: GetBrowserWindow(): not found, hwnd = 67746
+- 15:00:18.235 WARNING: RemoveBrowserWindow() failed: GetBrowserWindow() failed
+- 15:00:18.235 DEBUG: Calling CefQuitMessageLoop()
+- 15:00:18.266 DEBUG: OnBrowserDestroyed()
+- 15:00:18.485 INFO: Ended application
+- 15:00:18.485 INFO: --------------------------------------------------------
